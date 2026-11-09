@@ -21,6 +21,7 @@ function Block({ label, children }: { label: string; children: ReactNode }) {
 export default function Research() {
   usePageMeta("Research", "Research by Yoo Jung (Erika) Oh on human–AI communication, relational chatbots, AI persuasion, and health communication, featuring a systematic review of human–AI chatbot relationships.");
   const [zoom, setZoom] = useState(false);
+  const [view, setView] = useState<"featured" | "publications">("featured");
 
   return (
     <>
@@ -30,20 +31,37 @@ export default function Research() {
         </p>
       </PageHeader>
 
-      <nav aria-label="Research themes" className="mx-auto max-w-6xl px-5 sm:px-8 pb-12">
-        <ul className="flex flex-wrap gap-2">
-          <li><a href="#featured" className="inline-block border border-primary bg-primary text-primary-foreground px-3 py-1.5 text-sm" data-testid="link-jump-featured">Featured study</a></li>
-          {THEMES.map((t) => (
-            <li key={t.id}>
-              <a href={`#${t.id}`} className="inline-block border border-border px-3 py-1.5 text-sm hover:border-primary hover:text-primary transition-colors" data-testid={`link-jump-${t.id}`}>{t.name}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <div className="mx-auto max-w-6xl px-5 sm:px-8 grid lg:grid-cols-[190px_minmax(0,1fr)] gap-8 lg:gap-10 items-start">
+        <nav aria-label="Research sections" className="lg:sticky lg:top-24">
+          <div className="grid grid-cols-2 lg:grid-cols-1 gap-2">
+            {([
+              ["featured", "Featured Study"],
+              ["publications", "Selected Publications"],
+            ] as const).map(([id, label]) => (
+              <button
+                key={id}
+                id={`research-control-${id}`}
+                type="button"
+                aria-pressed={view === id}
+                aria-controls={`research-panel-${id}`}
+                onClick={() => setView(id)}
+                className={`min-h-12 px-4 py-3 text-sm text-left border transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary ${
+                  view === id
+                    ? "border-primary bg-primary text-primary-foreground font-semibold"
+                    : "border-border text-primary hover:bg-accent hover:border-primary"
+                }`}
+                data-testid={`button-view-${id}`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </nav>
 
+      <div className="min-w-0">
       {/* Featured */}
-      <section id="featured" className="scroll-mt-20 bg-secondary/50 border-y border-primary/15" aria-labelledby="featured-title">
-        <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-20">
+      <section id="research-panel-featured" hidden={view !== "featured"} className="scroll-mt-20 bg-secondary/50 border-y border-primary/15" aria-labelledby="research-control-featured">
+        <div className="px-4 sm:px-6 py-10 sm:py-12">
           <p className="eyebrow">Featured study &middot; Systematic review &middot; 2026</p>
           <h2 id="featured-title" className="font-display text-3xl sm:text-[2.75rem] leading-[1.12] mt-4 max-w-4xl text-primary" data-testid="text-featured-title">{TITLE}</h2>
           <p className="mt-4 text-foreground/75">
@@ -150,7 +168,7 @@ export default function Research() {
       </section>
 
       {/* Publications */}
-      <section className="mx-auto max-w-6xl px-5 sm:px-8 pt-20" aria-labelledby="pubs-title">
+      <section id="research-panel-publications" hidden={view !== "publications"} className="border-t border-border pt-10" aria-labelledby="research-control-publications">
         <p className="eyebrow">From the CV</p>
         <h2 id="pubs-title" className="font-display text-4xl sm:text-5xl mt-3">Selected publications</h2>
         <p className="mt-4 text-foreground/75 max-w-2xl">
@@ -158,8 +176,18 @@ export default function Research() {
           <a href={SITE.cv} target="_blank" rel="noopener noreferrer" className="link-u text-primary">full CV</a> lists all publications and presentations.
         </p>
 
+        <nav aria-label="Publication themes" className="mt-6">
+          <ul className="flex flex-wrap gap-2">
+            {THEMES.map((t) => (
+              <li key={t.id}>
+                <a href={`#${t.id}`} className="inline-block border border-border px-3 py-1.5 text-sm hover:border-primary hover:text-primary transition-colors" data-testid={`link-jump-${t.id}`}>{t.name}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
         {THEMES.map((t) => (
-          <div key={t.id} id={t.id} className="scroll-mt-20 grid md:grid-cols-[280px_1fr] gap-6 md:gap-12 py-12 border-t border-border mt-12 first-of-type:mt-12">
+          <div key={t.id} id={t.id} className="scroll-mt-20 grid xl:grid-cols-[200px_minmax(0,1fr)] gap-6 xl:gap-8 py-12 border-t border-border mt-12 first-of-type:mt-12">
             <div>
               <h3 className="font-display text-2xl text-primary leading-tight">{t.name}</h3>
               <p className="mt-3 text-[0.95rem] text-foreground/70">{t.summary}</p>
@@ -178,6 +206,8 @@ export default function Research() {
           </div>
         ))}
       </section>
+      </div>
+      </div>
 
       <Dialog open={zoom} onOpenChange={setZoom}>
         <DialogContent className="max-w-[96vw] w-[96vw] max-h-[94dvh] overflow-auto p-4 sm:p-6 bg-card">
