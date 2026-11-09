@@ -1,0 +1,1 @@
+- [Preview refresh verification](preview-refresh.md) — presenting an artifact alone does not confirm that an already-open preview has reloaded.
