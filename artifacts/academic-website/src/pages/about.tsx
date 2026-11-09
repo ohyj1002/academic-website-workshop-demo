@@ -41,7 +41,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <figure className="rise rise-2 order-1 md:order-2 relative max-w-sm md:max-w-none mx-auto md:mx-0 w-full">
+        <figure className="rise rise-2 order-1 md:order-2 relative max-w-[260px] md:max-w-[340px] mx-auto w-full">
           <div className="absolute -right-3 -bottom-3 sm:-right-4 sm:-bottom-4 inset-0 border border-primary/40 translate-x-3 translate-y-3 sm:translate-x-4 sm:translate-y-4" aria-hidden />
           <img
             src={SITE.photo}
