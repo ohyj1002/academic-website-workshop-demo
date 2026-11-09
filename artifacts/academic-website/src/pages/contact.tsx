@@ -1,4 +1,4 @@
-import { Mail, GraduationCap, ArrowUpRight } from "lucide-react";
+import { GraduationCap, ArrowUpRight } from "lucide-react";
 import { PageHeader } from "@/components/layout";
 import { SITE, usePageMeta } from "@/lib/site";
 
@@ -14,9 +14,6 @@ export default function Contact() {
           <p className="font-mono text-xs tracking-[0.14em] uppercase opacity-75">Email</p>
           <a href={`mailto:${SITE.email}`} className="block font-display text-3xl sm:text-4xl mt-3 break-all hover:underline underline-offset-4" data-testid="link-email-large">
             {SITE.email}
-          </a>
-          <a href={`mailto:${SITE.email}`} data-testid="button-email" className="mt-8 inline-flex items-center gap-2 bg-background text-primary px-5 py-3 font-medium hover:bg-secondary transition-colors">
-            <Mail className="h-4 w-4" aria-hidden /> Write an email
           </a>
         </div>
         <dl className="divide-y divide-border border-y border-border">
