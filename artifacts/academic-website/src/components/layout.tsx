@@ -11,7 +11,9 @@ const NAV = [
 ];
 
 export function Layout({ children }: { children: ReactNode }) {
-  const [location] = useLocation();
+  const [pathname] = useLocation();
+  // Static hosts may redirect directory entry points to trailing-slash URLs.
+  const location = pathname.replace(/\/+$/, "") || "/";
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
