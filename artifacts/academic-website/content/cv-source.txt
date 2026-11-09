@@ -1,0 +1,896 @@
+                                                                                               1
+
+
+
+                                 Yoo Jung (Erika) Oh
+                                     Assistant Professor
+                                Department of Communication
+                                  Michigan State University
+                                    ohyoojun@msu.edu
+
+                                      Updated: 9/25/2026
+EDUCATION
+
+PhD in Communication                                                                  2023
+Designated Emphasis in Computational Social Science
+University of California, Davis (Davis, California, United States)
+Advisor: Jingwen Zhang
+
+MA in Journalism and Mass Communication                                              2018
+Korea University (Seoul, South Korea)
+Advisor: Hee Sun Park
+
+BA in English Interpretation and Translation & Japanese Area Studies                 2016
+Hankuk University of Foreign Studies (Seoul, South Korea)
+
+AREAS OF RESEARCH
+Human-AI communication; Human-computer interaction; Artificial intelligence (AI)
+Chatbots; Strategic communication; Health communication; Public health; Health
+Technologies.
+
+PEER-REVIEWED PUBLICATIONS
+
+38. Cooper, R.A., McNamara, L., Wolfe, B. H., Oh, Y. J., Choung, H., Cui, X., & Chopik, W.
+J. (in press). Profiles of technology engagement and older adults’ endorsement or resistance of
+stereotypes about technology and aging: A mixed method investigation. Computers in Human
+Behavior Reports. https://doi.org/10.1016/j.chbr.2026.101286
+
+37. Oh, Y. J.*, Park, S., & Ryu, J. Y. (2026). Boosting organ donation self-efficacy through AI-
+generated health messaging: the differential impacts of “why” vs. “how” messaging and media
+modality. Health Communication, 41(9), 1580-1589.
+https://doi.org/10.1080/10410236.2025.2580327
+
+36. Choung, H., Oh, Y. J., Wolfe, B. H., Cui, X., Weinzapfel, J., & Cooper, R.A. (2026).
+Exploring older adults’ use of AI voice assistants through the lens of self-determination theory.
+Health Communication, 1-15. https://doi.org/10.1080/10410236.2026.2694693
+
+                                               1
+                                                                                                2
+
+
+
+
+35. Papa, M., Kuehnle, G., Oh, Y. J., & Yi, J. (2026). AI-enabled imaging for pathogen
+detection under stress conditions: A systematic review. Comprehensive Reviews in Food
+Science and Food Safety, 25(3), e70468. http://dx.doi.org/10.1111/1541-4337.70468
+
+34. Oh, Y. J.,* Hu, J., Zhu, Rui, Lim, J. I., & Zhang, X. (2026). Artificial intelligence chatbots
+as relational agents: A systematic review of human-AI chatbot relationships. International
+Journal of Human-Computer Interaction. 1-25.
+https://doi.org/10.1080/10447318.2026.2648799
+
+33. Xue, H., Oh, Y. J., Zhou, X., Zhang, X., & Oxley, B. (2026). Users’ prompting strategies
+and ChatGPT’s contextual adaptation shape conversational information-seeking experiences.
+Scientific Reports, 16(1), 12112. https://doi.org/10.1038/s41598-026-42465-4
+
+32. Rasul, M.E., Oh, Y. J., Jeon, M., Cho, H. J., & Calabrese, C. (2026). When distrust shapes
+news choice: Perceptions of mis- and disinformation and news consumption across traditional
+and social media outlets. Cyberpsychology, Behavior, and Social Networking, 29(3), 151-158.
+https://doi.org/10.1177/21522715261424695
+
+31. Calabrese, C., Yu, X., & Oh, Y. J. (2026). Examining discussions related to transgender
+athletes on Twitter: The role of negative emotion on message engagement. Communication &
+Sport, 14(2), 822-849. https://doi.org/10.1177/21674795241265969
+
+30. Calabrese, C., Xue, H., Zhang, X., & Oh, Y. J.* (2026). Leveraging artificial intelligence
+chatbots to employ bypassing and correction strategies for addressing misinformation about
+contraceptive use. Science Communication, 48(3), 507-541.
+https://doi.org/10.1177/10755470261418533
+
+29. Oh, Y. J., Jeon, M., & Cho, H. J., & Rasul, M. E. (2026). Narcissism predicts
+misinformation engagement through information seeking: Evidence from a survey. Acta
+Psychologica. 262, 106155. https://doi.org/10.1016/j.actpsy.2025.106155
+
+28. Oh, Y. J.,* Rasul, M. E., Lim, J. I., Calabrese, C., McKinley, E., Stevens, H., Turner, M.
+M., Lapinski, M. K., & Peng, T. Q. (2025). Targeting anger for COVID-19 prevention: The
+motivating role of anger on media use and vaccination intention. Plos one, 20(12), e0338183.
+https://doi.org/10.1371/journal.pone.0338183
+
+27. Rasul, M, E., Calabrese, C., Oh, Y. J., Cho, H. J., Jeon, M., & Boukes, M. (2025). “It’s all
+fake news!”: How perceptions of misinformation and disinformation influence news
+consumption across traditional media, social media, and AI. Journalism & Mass
+Communication Quarterly. 102(4), 993-1019. https://doi.org/10.1177/10776990251373085
+
+
+                                                2
+                                                                                                 3
+
+
+
+26. Zhang, X., Oh, Y. J., Zhang, Y., & Zhu, J. (2025). Seeking validation in the digital age:
+The impact of validation seeking on self-image and internalized stigma among self-vs.
+clinically diagnosed individuals on r/ADHD. PLoS One, 20(10), e0331856.
+https://doi.org/10.1371/journal.pone.0331856
+
+25. Hu, J. M. & Oh, Y. J. (2025). Stronger algorithmic beliefs were associated with more
+benign interpretations in unideal online dating scenarios. Cyberpsychology, Behavior, and
+Social Networking. 28(8), 594-598. https://doi.org/10.1089/cyber.2025.0085
+
+24. Oh, Y. J.*, Rasul, M. E., Mckinley, E., & Calabrese, C. (2025). From digital traces to public
+vaccination behaviors: Leveraging large language models for big data classification. Frontiers
+in Artificial Intelligence, 8, 1602984. https://doi.org/10.3389/frai.2025.1602984
+
+23. Wolfe, B. H., Oh, Y. J., Choung, H., Cui, X., Weinzapfel, J., Cooper, R. A., Lee, H., &
+Lehto, R. (2025). Caregiving artificial intelligence chatbot for older adults: A mixed-methods
+study on their preferences, well-being, and social connectivity. Journal of Internet Medical
+Research, 27, e65776. https://doi.org/10.2196/65776
+
+22. Oh, Y. J.*, Liang, K.-H., Kim, D. D., Zhang, X., Yu, Z., Fukuoka, Y., & Zhang, J. (2025).
+Enhancing physical activity through a relational artificial intelligence chatbot: A feasibility and
+usability study. Digital Health, 11. https://doi.org/10.1177/20552076251324445
+
+21. Oh, Y. J.,* Ryu, J. Y., Han, J., Park, S., Lim, J. I., Youk, S., & Park, H. S. (2025). Trust in
+AI doctors: How credibility and message richness in AI-based providers influence patient
+adherence.      Advances     in     Human‐Computer          Interaction,    2025(1),     5934127.
+https://doi.org/10.1155/ahci/5934127
+
+20. Liang, K. H., Shi, W., Oh, Y. J., Wang, H. C., Zhang, J., & Yu, Z. (2024). Dialoging
+resonance in human-chatbot conversation: How users perceive and reciprocate
+recommendation chatbot's self-disclosure strategy. Proceedings of the ACM on Human-
+Computer Interaction, 8(CSCW1), 1-28. https://doi.org/10.1145/3653691 (Refereed
+Conference Paper)
+
+19. Liao, W.*, Oh, Y. J.*, Zhang, J., & Feng, B. (2023). Conversational dynamics of joint
+attention and shared emotion predict outcomes in interpersonal influence situations: an
+interaction ritual perspective. Journal of Communication, 73(4), 342-355.
+https://doi.org/10.1093/joc/jqad003
+
+18. Liao, W., Oh, Y. J., Feng, B., & Zhang, J. (2023). Understanding the influence discrepancy
+between human and artificial agent in advice interactions: The role of stereotypical perception
+of agency. Communication Research, 50(5), 633-664.
+https://doi.org/10.1177/00936502221138427
+                                                3
+                                                                                               4
+
+
+
+
+17. Oh, Y. J.*, Hoffmann, T. J., & Fukuoka, Y. (2023). A novel approach to assess weekly self-
+efficacy for meeting personalized physical activity goals via a cellphone: 12-week longitudinal
+study. JMIR Formative Research, 7(1), e38877. https://doi.org/10.2196/38877
+
+16. Stevens, H., Rasul, M.E., & Oh, Y. J. (2022). Emotions and incivility in vaccine mandate
+discourse: Natural language processing insights. JMIR Infodemiology, 2(2), e37635.
+https://doi.org/10.2196/37635
+
+15. Fukuoka, Y., Katzman, W. B., Gladin, A., Lane, N. E., Kado, D. M., & Oh, Y. J. (2022).
+Slower upper extremity function in older adults with hyperkyphosis negatively impacts the 6-
+min walk test. BMC Musculoskeletal Disorders, 23(1), 1-8. https://doi.org/10.1186/s12891-
+022-05455-x
+
+14. Fukuoka, Y., & Oh, Y. J. (2022). Perceived risk of heart attack and type 2 diabetes in
+Hispanic adults with overweight and obesity. Journal of Cardiovascular Nursing, 39(6), E197-
+E205. https://doi.org/10.1097/JCN.0000000000000866
+
+13. Fukuoka, Y., & Oh, Y. J. (2022). Self-weighing behaviors of diverse community-dwelling
+adults motivated for a lifestyle change. International Journal of Environmental Research and
+Public Health, 19(9), 5242. https://doi.org/10.3390/ijerph19095242
+
+12. Fukuoka, Y., & Oh, Y. J. (2022). Perceived heart attack likelihood in adults with a high
+diabetes risk. Heart & Lung, 52, 42-47. https://doi.org/10.1016/j.hrtlng.2021.11.007
+
+11. Oh, Y. J.*, Zhang, J., Fang, M. L., & Fukuoka, Y. (2021). A systematic review of artificial
+intelligence chatbots for promoting physical activity, healthy diet, and weight
+loss. International Journal of Behavioral Nutrition and Physical Activity, 18(1), 1-25.
+https://doi.org/10.1186/s12966-021-01224-6
+
+10. Stevens, H. R., Oh, Y. J., & Taylor, L. R. (2021). Desensitization to fear-inducing COVID-
+19 health news on Twitter: Observational study. JMIR infodemiology, 1(1), e26876.
+https://doi.org/10.2196/26876
+
+9. Liang, K. H., Lange, P., Oh, Y. J., Zhang, J., Fukuoka, Y., & Yu, Z. (2021). Evaluation of in-
+person counseling strategies to develop physical activity chatbot for women. SIGDIAL.
+https://arxiv.org/pdf/2107.10410.pdf
+
+8. Liao, W., Zhang, J., Oh, Y. J., & Palomares, N. A. (2021). Linguistic accommodation
+enhances compliance to charity donation: The role of interpersonal communication processes
+in mediated compliance-gaining conversations. Journal of Computer-Mediated
+Communication, 36(3), 167-185. https://doi.org/10.1093/jcmc/zmab001
+                                               4
+                                                                                               5
+
+
+
+
+7. Zhang, J., Oh, Y. J., Lange, P., Yu, Z., & Fukuoka, Y. (2020). Artificial intelligence chatbot
+behavior change model for designing artificial intelligence chatbots to promote physical
+activity and a healthy diet. Journal of Medical Internet Research, 22(9), e22845.
+https://doi.org/10.2196/22845
+
+6. Oh, Y. J., Ryu, J. Y., & Park, H. S. (2020). What’s going on in the Korean peninsula?: A
+study on perception and influence of South and North Korea-related fake news. International
+Journal of Communication, 14, 1463-1479.
+https://ijoc.org/index.php/ijoc/article/viewFile/10904/3004
+
+5. Shi, W., Wang, X., Oh, Y. J., Zhang, J., Sahay, S., & Yu, Z. (2020). Effects of persuasive
+dialogues: Testing bot identities and inquiry strategies. In Proceedings of the 2020 CHI
+Conference on Human Factors in Computing Systems (pp. 1-13).
+https://dl.acm.org/doi/10.1145/3313831.3376843 (Refereed Conference Paper)
+
+4. Park, H. S., Ryu, J. Y., & Oh, Y. J. (2020). Comparisons of Koreans, Korean Americans, and
+White Americans regarding deceased organ donation. Journal of Health Psychology, 25(13-
+14), 2286-2295. https://doi.org/10.1177/1359105318793710
+
+3. Oh, Y. J.*, Park, H. S., & Min, Y. (2019). Understanding location-based service application
+connectedness: Model development and cross-validation. Computers in Human Behavior, 94,
+82-91. https://doi.org/10.1016/j.chb.2019.01.003
+
+2. Wang, X., Shi, W., Kim, R., Oh, Y. J., Yang, S., Zhang, J., & Yu, Z. (2019). Persuasion for
+good: Towards a personalized persuasive dialogue system for social good. In Proceedings of
+the 57th Annual Meeting of the Association for Computational Linguistics (pp. 5635-5649).
+Best Paper Nomination Award. https://arxiv.org/pdf/1906.06725.pdf (Refereed Conference
+Paper)
+
+1. Park, H. S., Oh, Y. J., & Ryu, J. Y. (2018). The influence of James C. McCroskey’s research
+in     South     Korea.      Communication        Research      Reports,    35(2),   190-194.
+https://doi.org/10.1080/08824096.2018.1425982
+
+* Corresponding author
+
+MANUSCRIPTS UNDER REVIEW
+
+Manuscripts in Revision
+Zhang, X. & Oh, Y. J.* (Revise and Resubmit). When Chatbots Feel Similar to Me:
+Relational Outcomes of Perceived Similarity. Cyberpsychology, Behavior, and Social
+Networking.
+
+                                               5
+                                                                                             6
+
+
+
+Calabrese C., Rasul, M. E., Cho, H. J., Jeon, M., Kim, T., & Oh, Y. J. (Revise and
+Resubmit). Development and Validation of a Deepfake Literacy Scale: Predictors and
+Correlates of Deepfake Literacy Beyond General AI Knowledge. Behaviour & Information
+Technology.
+
+Hu, J. M. & Oh, Y. J.* (Revise and Resubmit). Trust in Dating Algorithms, Biased
+Appraisal, and Boosted Feelings in Mediated Romantic Encounters. Information,
+Communication & Society.
+
+Hu, J. M. & Oh, Y. J.* (Revise and Resubmit). Benefits in A Leap of Faith: Algorithmic
+Beliefs Enhanced Relational Outcomes in Online Dating. Journal of Media Psychology.
+
+Zhang, X. & Oh, Y. J.* (Revise and Resubmit). Human vs. AI as Romantic Advisors: A Test
+of Expectancy Violation Processes. Journal of Broadcasting & Electronic Media.
+
+Manuscripts in Review
+Zhu, R., Oh, Y. J.*, Zhang, X., Forsyth, S. M., Markowitz, D., & Van Der Heide, B. L. (in
+review). Accommodating to Machines? Linguistic Style Accommodation in Human-AI
+Chatbot Communication. Behaviour & Information Technology.
+
+Kim, G., Lim, J. I., Calabrese, C., Rasul, M. E., & Oh, Y. J.* (in review). From Deepfake
+Exposure to AI Literacy Education: Risk and Benefit Perceptions as Pathways to Support.
+Computers in Human Behavior.
+
+Oh, Y. J., Jeon, M., Cho, H. J., Calabrese, C., & Rasul, M. E. (in review). Public perceptions
+of AI deepfake harm: Personal, societal, and third person perception shaped by AI trust, AI
+risk perception, and demographics. The Social Science Journal.
+
+Zhang, X., Oh, Y. J.*, Jeon, M. (in review). Rethinking AI Dependency: Functional and
+Existential Forms in Relation to Identity Threat and Anxiety. Health Communication.
+
+Cho, K. W., Kim, Y., Kim, H., Oh, Y. J., & Han, J.-Y. (in review). Why and When Empathic
+AI Chatbots Improve Mental Health-related Coping Responses: The Mediating Role of
+Source Derogation and the Moderating Roles of Linguistic Politeness and AI Literacy.
+Health Communication.
+
+Hu, J. M., Oh, Y. J., & Zhu, R. (in review). Limited Human Interaction Predicted Support-
+seeking from AI Chatbots. Journal of Social and Personal Relationships.
+
+Zhu, R., Hu, J. M., & Oh, Y. J. (in review). Who Uses AI for Relational Matters? Roles of
+Social Anxiety and Mind Perception. Cyberpsychology, Behavior, and Social Networking.
+
+* Corresponding author
+
+CONFERENCES/PRESENATIONS
+
+
+
+                                              6
+                                                                                            7
+
+
+
+53. Campos-Castillo, C., Oh, Y. J., Fortuna, J., & Hiner, S. (2026. June). A Brief AI Literacy
+Scale for Adolescents: Validation and Associations with Demographics and AI Concerns. Paper
+accepted to the 76th Annual Convention of the International Communication Association, Cape
+Town, South Africa.
+
+52. Liao, W., Li, H., Hwang, L., Feng, B., & Oh, Y. J. (2026. June). Talking Differently to
+Human versus Artificial Intelligence Advice Givers? Linguistic Profiles of the Underlying
+Interaction Scripts. Paper accepted to the 76th Annual Convention of the International
+Communication Association, Cape Town, South Africa.
+
+51. Zhu, R., Oh, Y. J., Zhang, X., Forsyth, S., Markowitz, D., & Van Der Heide, B. (2026,
+June). How We Accommodate to AI: Linguistic Style Accommodation and Its Effects in
+Human-AI Chatbot Conversations. Paper accepted to the 76th Annual Convention of the
+International Communication Association, Cape Town, South Africa.
+
+50. Kim, H., Han, J-Y., Oh, Y. J., Cho, K. W., & Kim, Y. (2026, June). How Emotion in AI
+Becomes Information Empowerment: Distinct Emotional Cue Pathways to Trust in Mental
+Health Chatbots. Paper accepted to the 76th Annual Convention of the International
+Communication Association, Cape Town, South Africa.
+
+49. Zhang, X. & Oh, Y. J. (2026, June). That’s Not What I Wanted to Hear: How Viewpoint
+Disconfirmation Triggers Defensive Processing in Human-AI Interaction. Paper accepted to
+the 76th Annual Convention of the International Communication Association, Cape Town,
+South Africa.
+
+48. Xue, H., Oh, Y. J., Zhou, X., Zhang, X., & Oxley, B. (2026, June). Users’ Prompting
+Strategies and ChatGPT’s Contextual Adaptation Shape Conversational Information-Seeking
+Experiences. Paper accepted to the 76th Annual Convention of the International
+Communication Association, Cape Town, South Africa.
+
+47. Oh, Y. J., Kim D. D., & Zhang, J. (2026, June). Effects of AI Relational Communication
+on Enhancing Relationship Perceptions and Persuasive Outcomes in a Health Promotion
+Context. Paper accepted to the 76th Annual Convention of the International Communication
+Association, Cape Town, South Africa.
+
+46. Choung, H., Oh, Y. J., Wolfe, B., Cui, X., Weinzapfel, J. & Cooper, R. A. (2026, April).
+Aging with AI: Exploring Older Adults’ Use of Voice Assistants Through the Lens of Self-
+Determination Theory. Paper accepted for presentation at the Central States Communication
+Association 2026, Minneapolis, MN, United States.
+
+45. Oh, Y. J. (2026, March). AI-Assisted Coding of COVID-19 Vaccine Tweets. Presenter.
+Half day pre conference workshop on generative AI in academic research, American Academy
+                                              7
+                                                                                            8
+
+
+
+of Advertising Annual Conference. American Academy of Advertising 2026 Annual
+Conference, Austin, TX, United States.
+
+44. Oh, Y. J., Donohue, W., McKinley, E., Molina, M., & Peng, W. (2025, November).
+Interpersonal Persuasion: The Language of Relational Development and its Role in Relational
+Outcome. Paper accepted for presentation at the 111th Annual National Communication
+Association Conference, Denver, CO, United States.
+
+43. McNamara, A., Cooper, R. A., Wolfe, B. H., Oh, Y. J., Choung, H., & Cui, X. (2025,
+November). “They’re Probably all Negative” Older Adults’ Engagement with Technology and
+Communication about Aging Stereotypes. Paper accepted for presentation at the 111th Annual
+National Communication Association Conference, Denver, CO, United States.
+
+42. Oh, Y. J., Park, S., & Ryu, J. Y. (2025, November). Boosting Organ Donation Self-Efficacy
+Through AI: The Differential Impacts of “Why” vs. “How” Messaging and Media Modality.
+Paper accepted for presentation at the 111th Annual National Communication Association
+Conference, Denver, CO, United States.
+
+41. Oh, Y. J., Rasul, M. E., McKinley, E., & Calabrese, C. (2025, November). From Digital
+Traces to Public Vaccination Behaviors: Leveraging Large Language Models for Big Data
+Classification. Paper accepted for presentation at the 111th Annual National Communication
+Association Conference, Denver, CO, United States.
+
+40. Hu, J. M. & Oh, Y. J. (2025, November). Benefits in A Leap of Faith: Algorithmic Beliefs
+Enhanced Relational Outcomes in Online Dating. Paper accepted for presentation at the 111th
+Annual National Communication Association Conference, Denver, CO, United States.
+
+39. Han, J. H., Oh, Y. J., Li, H., Xue, H., Zhang, R., Bodrie, J., Li, X. (2025, November).
+Dyadic Support in Human-AI Conversations: Investigating Support Type, Quality, and
+Reactions. Paper accepted for presentation at the 111th Annual National Communication
+Association Conference, Denver, CO, United States.
+
+38. Zhang, X., Oh, Y. J., Zhang, Y., & Zhu, J. (2025, June). Seeking Validation in the Digital
+Age: The Impact of Validation Seeking on Self-Image and Internalized Stigma among Self- vs.
+Clinically Diagnosed Individuals on r/ADHD. Paper accepted to the 75th Annual Convention
+of the International Communication Association, Denver, CO.
+
+37. Calabrese, C., Ash, E., McKenzie, A. H., Xue, H., Oh, Y. J., & Oxley, B. (2025, May).
+Fostering empowerment to address birth control misinformation among young women: Effects
+of bypassing strategies on social media engagement. Comm Horizons @ UCD 2025: Media,
+Health, and Society
+
+
+                                              8
+                                                                                            9
+
+
+
+36. McKinley, E., Oh, Y. J., Alhumaidy, A., & Zhang, J. (2025, May). AI as humans?: Using
+LLMs to synthesize human responses in persuasive contexts. Comm Horizons @ UCD 2025:
+Media, Health, and Society
+
+35. Oh, Y. J., Choung, H., & Wolfe, B. (2025, April). 2024 Federation Prize Recipient
+Presentation: Artificial Intelligence (AI) Companion: Supportive AI Chatbot for Socially
+Isolated Older Adults Residing in Michigan (Panel). Annual Convention of Central States
+Communication Association, Cincinnati, Ohio.
+
+34. Wilcox, C., Watson, O., Oh, Y. J., Craig, M., Edwards, A., & Poyner-Smith, K. (2025,
+April). What Now?: Navigating Post-graduate Positions (Top Panel). Annual Convention of
+Central States Communication Association, Cincinnati, Ohio.
+
+33. Oh, Y. J. & Park, S. (2024, November). Developing Health Interventions with Generative
+AI: The Impact of Construal Level Theory and Media Modality on Organ Donation-Related
+Intentions. Paper accepted to the 110th Annual Convention of National Communication
+Association, New Orleans, LA.
+
+32. Oh, Y. J., Hu, J. M., Zhu, R., & Lim, J. I. (2024, November). Exerting Social Influence by
+Building Human-AI Chatbot Relationships: A Systematic Review. Paper accepted to the 110th
+Annual Convention of National Communication Association, New Orleans, LA.
+
+31. Oh, Y. J., Wolfe, B. H., Choung, H., Cui, X., & Weinzapfel, J. (2024, November). Learning
+from Older Adults about their Preferences for Caregiving Artificial Intelligence (AI) Chatbots
+to Improve Well-being and Social Connectivity. Paper accepted to the 110th Annual
+Convention of National Communication Association, New Orleans, LA.
+
+30. Oh, Y. J., Rasul, M. E., Lim, J. I., & Calabrese, C. (2024, November). COVID-19-Related
+Anger on Traditional vs. Social Media News Consumption and Vaccination Intention: A
+Nationally Representative Study. Paper accepted to the 110th Annual Convention of National
+Communication Association, New Orleans, LA.
+
+29. Oh, Y. J., Liang, K-H., Zhang, J., Zhang, X., Yu, Z., & Fukuoka, Y (2024, June). Role of
+Mind Perceptions in Human-Chatbot Relationships: Relational Chatbots for Health Behavior
+Promotion. Paper accepted to the 74th Annual Convention of the International Communication
+Association, Gold Coast, Australia.
+
+28. Oh, Y. J., Liang, K-H., Zhang, J., Kim, D., Yu, Z., & Fukuoka, Y (2024, June). Enhancing
+Physical Activity through a Mobile App-Based Relational AI Chatbot: A Pilot Randomized
+Controlled Trial. Paper accepted to the 74th Annual Convention of the International
+Communication Association, Gold Coast, Australia.
+
+
+                                              9
+                                                                                             10
+
+
+
+27. Wolfe, B. H., Oh, Y. J., & Dorrance Hall, E. (2024, May). Mixed methods for
+understanding interpersonal communication processes. 1st Annual Meeting for Communication
+Science Futures. East Lansing, MI.
+
+26. Oh, Y. J., Zhang, J., Liang, K. H., Yu, Z., & Fukuoka, Y. (2024, March). Leveraging
+Human-Chatbot Relationships for Mobile App-Based Physical Activity Interventions. Paper
+accepted for presentation at the 45th Annual Meeting & Scientific Sessions of the Society of
+Behavioral Medicine (SBM), Philadelphia, PA.
+
+25. Oh, Y. J., Calabrese, C., & Stevens, H. (2023, November). Identifying vaccination behavior
+on social media through the development of a lstm neural network model for classification.
+Paper accepted for presentation at the 2023 American Public Health Association (APHA),
+Atlanta, GA.
+
+24. Ji, X., Taherzadeh, S., Oh, Y., Zhang, J., Patterson F. (2023, September). Chatbot-based
+Interventions Targeting Cardiometabolic Risk Factors: A Mixed-methods Systematic
+Review. Council for the Advancement of Nursing Science (CANS) 2023 Advanced Methods
+Conference, Biosocial Methods to Advance Health Equity.
+
+23. Calabrese, C., Oh, Y. J., Yu, X. (2023, May). Examining Discussions Related to
+Transgender Athletes on Twitter: A Natural Language Processing Approach. Paper accepted for
+presentation at the annual convention of the International Communication Association, Toronto,
+Canada.
+
+22. Oh, Y. J. & Stevens, H. (2022, November). Online help seeking as an effective method to
+alleviate suicidal ideation. Paper accepted to the 108th Annual Convention of National
+Communication Association, New Orleans, LA.
+
+21. Rasul, M. E., Stevens, H., Oh, Y. J. (2022, September). Emotions and Incivility in Vaccine
+Mandate Discourse: Natural Language Processing Insights. Paper accepted for presentation at
+the American Political Science Association’s Political Communication Preconference,
+Montreal, Quebec, Canada.
+
+20. Oh. Y. J., Zhang, J., Ji, X., Liao, W., & Feng, B. (2022, June). Efficacy of a Chatbot-Based
+Sleep Intervention on Sleep Quality Improvement among Young Adults. Paper accepted for
+presentation at the SLEEP 2022 conference, Charlotte, NC.
+
+19. Oh, Y. J., Stevens, H., Calabrese, C., Ye, Y., & Tin, J. (2022, May). Extended Abstract: I
+Got Vaccinated Today: Understanding Linguistic Cues and Development of LSTM neural
+network model for Vaccination Behavior Classification. Paper accepted for presentation at the
+annual convention of the International Communication Association, Paris, France.
+
+
+                                              10
+                                                                                              11
+
+
+
+18. Liao, W., Oh, Y. J., Feng, B., & Zhang, J. (2022, May). Ritualistic Dynamics of Task and
+Social-emotional Interactions Predict Interpersonal Influence Outcomes in Compliance-
+Gaining and Advice- Giving Conversations. Paper accepted for presentation at the annual
+convention of the International Communication Association, Paris, France. Top Paper Award.
+
+17. Stevens, H., Oh, Y. J., & Rasul, M. E. (2022, May). Concrete Language Expression and
+Suicidal Behaviors on r/suicidewatch subreddit. Paper accepted for presentation at the annual
+convention of the International Communication Association, Paris, France.
+
+16. Park, H. S., Yun, D., Oh, Y. J., Kim, Y., Ki, H., & Park, S. (2022, May). Reasons for my
+intentions: Donor registry sign-up and family discussion about deceased organ donation. Paper
+accepted for presentation at the annual convention of the International Communication
+Association, Paris, France.
+
+15. Oh, Y. J., Calabrese, C., & Stevens, H. (2021, November). Tweet Concretely: Examining
+the Relationship between Concrete Language and Perceived Temporal Distance to COVID-19
+Vaccination. Paper accepted to the 107th Annual Convention of National Communication
+Association, Seattle, WA.
+
+14. Oh, Y. J., & Huskey, R. (2021, May). Applying Information Theory in Human
+Communication: A biological Perspective. Paper accepted to the 71st Annual Convention of
+International Communication Association, Denver, CO. *Virtual conference due to COVID-
+19.
+
+13. Liao, W., Oh, Y. J., Feng, B., & Zhang, J. (2021, May). Are Bots Agentic Enough?
+Understanding Agentic Perceptions and Social Influence From Taking Sleep Advice with
+Human versus Artificial Agent. Paper accepted to the 71st Annual Convention of International
+Communication Association, Denver, CO. *Virtual conference due to COVID-19.
+
+12. Stevens, H., Oh, Y. J., & Taylor, L. (2021, May). Natural Language Processing Reveals
+Decreased Anxiety in U.S. Responses to Threatening COVID-19 Health News on Twitter,
+Despite Rising Death Toll: An Observational Study. Paper accepted to the 71st Annual
+Convention of International Communication Association, Denver, CO. *Virtual conference due
+to COVID-19.
+
+11. Oh, Y. J., Youk. S. B., Ryu, J. Y., Lim, J. I., & Park. H. S. (2020, May). The AI doctor will
+see you now: The effect of human vs. AI doctor on patient adherence. Paper accepted for
+presentation at the annual convention of the International Communication Association, Gold
+Coast, Australia. *Virtual conference due to COVID-19.
+
+10. Zhang. J., Oh, Y. J., & Feng, S. (2020, May). Predicting successful persuasion based on
+conversational dynamics: Markov Chain models and sequence analyses. Paper accepted for
+                                               11
+                                                                                              12
+
+
+
+presentation at the annual convention of the International Communication Association, Gold
+Coast, Australia. *Virtual conference due to COVID-19.
+
+9. Liao, W., Zhang. J., Oh, Y. J., & Palomares, N. (2020, May). Linguistic Accommodation
+Enhances Compliance to Donate: The Role of Interpersonal Processes in Mediated
+Conversations. Paper accepted for presentation at the annual convention of the International
+Communication Association, Gold Coast, Australia. Top Paper Award. *Virtual conference
+due to COVID-19.
+
+8. Youk, S., Oh, Y. J., & Park, H. S. (2019, October). Communicative responsibility and patient
+satisfaction: Comparing human and AI doctors in the context of telemedicine. Paper accepted
+for presentation at 2019 ICA Regional Conference-ASPIKOM, Bali, Indonesia.
+
+7. Oh, Y. J. & Park, H. S. (2019, May). Bridging between construal level theory and the
+transtheoretical model: The effect of temporal distance on organ donor registration behavior.
+Paper accepted for presentation at the annual convention of the International Communication
+Association, Washington, D.C.
+
+6. Zhang, J., Oh, Y. J., Wang, X., Kim, R., Yang, S., & Yu, Z. (2019, May). First step towards
+an automated personalized persuasive conversational system: Investigating moderating effects
+of psychological factors. Paper accepted for presentation at the annual convention of the
+International Communication Association, Washington, D.C.
+
+5. Oh, Y. J. & Park, H. S. (2018, November). Understanding location-based service application
+connectedness: Model development and cross-validation. Paper accepted for presentation at
+the annual convention of the National Communication Association, Salt Lake City, UT.
+
+4. Oh, Y. J., Ryu, J. Y., Park, H. S., & Youk, S. B. (2018, November). What’s going on in the
+Korean Peninsula?: A study on perception and influence of South and North Korea-related fake
+news. Paper accepted for presentation at the annual convention of the National Communication
+Association, Salt Lake City, UT.
+
+3. Im, W. J., Park, H. S., Youk, S. B., Ryu, J. Y., & Oh, Y. J. (2018, November). Will you accept
+our apology? Evaluation of timing of announcement, type of apology, and fulfillment of
+individual’s needs to be heard as a crisis management strategy. Paper accepted for presentation
+at the annual convention of the National Communication Association, Salt Lake City, UT.
+
+2. Park, H. S., Oh, Y. J., & Ryu, J. Y. (2017, November). Organ donation intentions: The effects
+of message describing specific vs. general benefits. Paper accepted for presentation at the
+annual convention of the National Communication Association, Dallas, TX, USA.
+
+
+
+                                               12
+                                                                                               13
+
+
+
+1. Oh, Y. J., Park, H. S., Ryu, J. Y., & Yun, D. (2017, June). Differences in intentions to enroll
+in an organ donor registry between two countries: An integration of theory of planned behavior
+and construal level theory. Paper Presented at the spring conference of Korea Health
+Communication Association, Seoul, South Korea.
+
+GRANTS/ FUNDING
+
+MSU CAS 2026 Collaborative Seed Grants program ($2.996), Co-PI
+Title: Dependency in Human-AI Social Exchange Networks
+Status: funded (May 2026)
+
+National Institute of Health (NIH), PI ($1,233,976.86)
+PA-25-305 (Parent R01 Clinical Trial Required)
+Title: Development and Evaluation of a Voice-Based AI Chatbot to Reduce Loneliness
+Among Socially Isolated Older Adults
+Status: Submitted (June 2025), not funded (Jan 2026)
+
+Michigan Health Endowment Fund, Co-I ($408,556.00)
+2025 Healthy Aging program
+Title: Improving health outcomes for kinship caregivers through digital health literacy and
+online safety
+Status: Submitted (June 2025) - Clarification July 2025
+
+Open Philanthropy, Co-PI ($300,000)
+Letter of Intent, Black-box LLM psychology
+Title: Persuasive Capabilities of LLMs
+Status: LOI submitted (April 2025), Not funded (May 2025)
+
+National Endowment for the Humanities (NEH), Co-PI ($819,035)
+Humanities Research Centers on Artificial Intelligence (HRCAI) competition (Funding
+Opportunity 20241211-RAI, Federal Assistant Listing Number: 45.161)
+Title: Center for Youth Building Ethical Relationships with Artificial Intelligence (CYBER
+AI)
+Status: Submitted (Dec 2024), Not funded (July 2025)
+
+National Science Foundation (NSF), Co-PI ($801,062)
+HCC: Medium: Text-To-Nonverbal Conversational Agents (TTN-ECAs): Redefining College
+Mentoring with Embodied Virtual Coaches
+Status: Submitted (Aug 2024)
+
+TETRAD, Michigan State University, Co-PI ($30,000)
+
+
+                                               13
+                                                                                               14
+
+
+
+Title: Advancing global food safety in a changing climate: Integrating microbiome insights,
+artificial intelligence, and health communication
+Status: Funded
+
+TRIFECTA, Michigan State University, PI ($9,708)
+Title: Supportive artificial intelligence (AI) chatbot for socially isolated older adults
+Status: Funded
+
+Federation Prize, Central States Association, PI ($5,000)
+Title: Artificial Intelligence (AI) Companion: Supportive AI chabot for socially isolated older
+adults residing in Michigan
+Status: Funded
+
+National Institute of General Medical Sciences (NIH NIGMS), COBRE Pilot Award,
+Researcher ($50,000)
+Title: Sleep chatbot intervention for emerging adults with cardiometabolic risk factors.
+Status: Funded
+
+UCSF RAP Team Science, Research Assistant                                    2020-2022
+Title: Building a chatbot to deliver personalized activity interventions to reduce metabolic
+syndrome.
+
+Department Dissertation Grant ($1,000), UC Davis                                        2021
+Conference Travel Grant ($800), UC Davis                                                2021
+Conference Travel Grant ($800), UC Davis                                                2019
+Small Grant ($500), UC Davis                                                            2018
+Conference Travel Grant ($800), UC Davis                                                2018
+
+RESEARCH/WORK EXPERIENCE
+
+Data Analyst, June 2021 – December 2022, Advisor: Yoshimi Fukuoka
+CPT authorization: 06/23/2021 – 09/21/2021; 09/22/2021 – 12/10/2021;
+12/13/2021 – 03/18/2022; 03/19/2022 – 06/09/2022; 09/19/2022 – 12/09/2022
+Department of physiological nursing, University of California, San Francisco (UCSF)
+Research area: Public health, health communication, data analysis
+
+Graduate Student Researcher, CHATR Lab, September 2018 – June 2023, Advisor: Jingwen
+Zhang
+Department of Communication, University of California, Davis
+Research area: Health communication, Artificial intelligence, Conversational agents, chatbots,
+health applications
+
+
+                                                14
+                                                                                    15
+
+
+
+TEACHING EXPERIENCE
+
+Department of Communication, Michigan State University
+Assistant Professor
+        Undergraduate Level Courses
+        COM325 Interpersonal Influence and Conflict
+        COM330 Health Communication
+        Graduate Level Courses
+        CAS825 Mass Communication and Public Health
+
+Department of Communication, University of California, Davis
+Associate Instructor
+        Undergraduate Level Courses
+        CMN001 Public Speaking                     Summer Session 2020, 2021, 2022
+        CMN178 Persuasive Technology               Winter Session 2023
+
+School of Media and Communication, Korea University
+Associate Instructor
+        Undergraduate Level Courses
+        JMCO448 Strategic Communication Research                   Winter Session 2020
+
+Department of Communication, University of California, Davis
+Teaching Assistant
+       Undergraduate Level Courses
+       CMN001 Public Speaking        Fall 2018, Winter 2019, Spring 2019, Spring 2020
+       CMN112 Theories of Persuasion                 Fall 2019, Spring 2021, Fall 2021
+       CMN123 Intercultural Communication                                 Winter 2021
+       CMN140 Introduction to Mass Communication                Winter 2020, Fall 2020
+       CMN178 Persuasive Technology                         Winter 2022, Spring 2022
+
+School of Media and Communication, Korea University
+Teaching Assistant                                          March 2017 – February 2018
+        Undergraduate Level Courses
+        JMCO330 Human Communication
+        Graduate Level Courses
+        JMC579 Data Analysis Ⅰ
+        MOY503 Research Paper Preparation
+
+FELLOWSHIPS/AWARDS
+
+Top Paper Award                                                             2022
+International Communication Association – Interpersonal Communication
+                                          15
+                                                                                       16
+
+
+
+Paper titled “Ritualistic Dynamics of Task and Social-emotional Interactions Predict
+Interpersonal Influence Outcomes in Compliance-Gaining and Advice- Giving Conversations”
+
+Top Paper Award                                                         2020
+International Communication Association – Interpersonal Communication
+Paper titled “Linguistic Accommodation Enhances Compliance to Donate: The Role of
+Interpersonal Processes in Mediated Conversations”
+
+Best Paper Awards Nomination                                                  2019
+Association for Computational Linguistics
+Paper titled “Persuasion for Good: Towards a Personalized Persuasive Dialogue System for
+Social Good”
+
+Minister Prize (second-place award) ($2,290)                                    2017
+Unification Research Competition
+Institute for Unification Education, Ministry of Unification
+Paper titled “Examining the Influence and Perception of South and North Korea-Related Fake
+News (Written in Korean)”
+
+Research Assistant Scholarships ($9,100), Korea University, South Korea        2017
+Student Council Scholarships ($4,550), Korea University, South Korea           2016
+
+SERVICE
+
+AI Task Force, Member                                      2025-current
+College Advisory Committee (CAC), Department Representative                    2024-2025
+        College Undergraduate Subcommittee
+
+Student Advising & Committee
+Undergraduate:
+Independent Research (Sandi Smith Research Fellowship)
+Weinzapfel, Joshua (Feb 1, 2025-May 15, 2026)
+Graduate:
+Member, Dissertation Committee
+Zhu, Rui, PhD: Doctor of Philosophy, (Summer 2025 – Present)
+
+Chair, Master’s Committee
+Weincapfel, Joshua (Academic Advisor), MA: Master of Arts, Plan B, (Fall 2025 – Summer
+2026). Degree Awarded.
+Barker, Kaleb, MA: Master of Arts, Plan B, (Spring 2025 – Summer 2026). Degree Awarded.
+Li, Wenyuan (Academic Advisor), MA: Master of Arts, Plan B, (Fall 2024 – Summer 2025).
+Degree Awarded.
+                                           16
+                                                                                         17
+
+
+
+
+Member, Master’s Committee
+Cortes, Karla, MA: Master of Arts, Plan A, (Summer 2026 – Present).
+Liu, Ran, MA: Master of Arts, Plan A, (Spring 2026 – Summer 2026). Degree Awarded.
+Creevy, Marcy, MA: Master of Arts, Plan B, (Spring 2026). Degree Awarded.
+Nguyen, Linh Anh, MA: Master of Arts, Plan A, (Fall 2025 – Spring 2026). Degree Awarded.
+Cui, Xiaoran, MA: Master of Arts, Plan A, (Spring 2025 – Spring 2026). Degree Awarded.
+
+Academic Advisor
+Zhang, Xinyu (Doctoral). (August 2024 – Present)
+
+Ad-Hoc Reviewer
+Journal of Communication
+Asian Journal of Communication
+International Journal of Human-Computer Interaction
+Asian Communication Research
+BMC Psychology
+Digital Health
+Frontiers in Nutrition
+Journal of Medical Internet Research (JMIR)
+JMIR mHealth and uHealth
+Journal of Biomedical Informatics
+Public Health Nursing
+Scientific Reports
+Human Communication Research
+Annals of Behavioral Medicine
+New Media and Society
+Health Communication
+Journal of Language and Social Psychology
+Communication Research
+npj Women's Health
+
+Media Coverage
+From tweets to trends: How LLMs are shaping public health intelligence from digital traces
+Devdiscourse, July, 24, 2025
+https://www.devdiscourse.com/article/technology/3514515-from-tweets-to-trends-how-llms-
+are-shaping-public-health-intelligence-from-digital-traces
+
+AI apps are supplemental, not solutions to mental health support
+WILX 10, June 08, 2025
+https://www.wilx.com/2025/06/08/ai-apps-are-supplemental-not-solutions-mental-health-
+support/
+                                            17
+                                                                                             18
+
+
+
+
+Invited Talks
+
+Invited Panelist, MSU Museum (September 2026)
+“The Doctor Will See You Now: A Conversation on AI in Healthcare”
+Scheduled panel discussion on the opportunities, limitations, and ethical implications of using
+AI in healthcare.
+
+Invited Speaker, MSU College of Communication Arts and Sciences (April 2026)
+All-College Meeting
+Presentation on “Listening First: AI & Aging in the Michigan Community.”
+
+Invited Discussant, Michigan State University (March 2026)
+Cross-Unit Discussion on Generative AI in Communications
+Invited discussion with communications teams from the Provost’s Office, Residential and
+Hospitality Services, and the Office of the Executive Vice President for Administration on
+applications and appropriate guardrails for generative AI.
+
+Invited Speaker, Ewha Womans University (July 2026)
+2026 SSK Special Session
+90-minute talk and workshop on “Engineering Human–AI Interaction: Designing,
+Implementing, and Analyzing AI Chatbot-Based Studies.”
+
+Invited Speaker, Seoul National University (January 2025)
+Emerging Scholar Series
+90-minute talk and Q&A on “From Insights to Influence: Artificial Intelligence (AI) as Tool
+and Social Actor in Health Communication Research.”
+
+Panel Discussion: “Preparing for Phone Interviews for Academic Jobs” (October 2024)
+With Dr. David Markowitz and Dr. Brooke Wolfe, Department of Communication, Michigan
+State University, East Lansing, MI.
+
+Invited Speaker, 2024 EWHA Communication & Media International Conference
+(September 2024)
+20-minute talk and Q&A on “Leveraging Artificial Intelligence (AI) Chatbots in Health
+Communication.”
+
+Guest Speaker, Michigan State University (November 2024)
+COM903
+1-hour talk and Q&A: “Artificial Intelligence and Social Science Research.”
+
+Panel Discussion: “Getting Ready for the Job Market” (July 2024)
+With Dr. David Markowitz and Dr. Brooke Wolfe, Department of Communication, Michigan
+State University, East Lansing, MI.
+                                              18
+                                                                                19
+
+
+
+Guest Speaker, University of North Dakota (April 2024)
+1-hour talk: “Persuasive AI Chatbots for Social Good.”
+
+Guest Speaker, Clemson University (October 2023)
+Comm8240 Persuasive Technologies and Health
+1-hour talk and Q&A: “Persuasive Effects of AI Chatbots.”
+
+Guest Speaker, Clemson University (November 2022)
+Comm3050 Persuasion
+1-hour talk and Q&A: “Persuasive Effects of AI Chatbots.”
+
+Guest Speaker, University of California, San Francisco (UCSF) (January 2022)
+N269 Integration of Scientific Literature
+1-hour talk and Q&A: “Conducting a Systematic Review and Protocol Writing.”
+
+Guest Speaker, University of California, San Francisco (UCSF) (February 2021)
+N269 Integration of Scientific Literature
+1-hour talk and Q&A: “Conducting a Systematic Review and Protocol Writing.”
+
+PROFESSIONAL AFFILIATIONS
+
+International Communication Association (ICA)
+National Communication Association (NCA)
+Central States Communication Association (CSCA)
+
+
+
+
+                                            19
+

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Yoo Jung (Erika) Oh"
+description = "Professional academic website for Yoo Jung (Erika) Oh, Assistant Professor of Communication at Michigan State University. About, research, CV, and contact."
+version = "1.0.0"
+id = "artifacts/academic-website"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24853
+
+[services.development]
+run = "pnpm --filter @workspace/academic-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/academic-website", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/academic-website/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24853"
+BASE_PATH = "/"

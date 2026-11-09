@@ -1,0 +1,1438 @@
+      International Journal of Human–Computer Interaction
+
+
+
+
+      ISSN: 1044-7318 (Print) 1532-7590 (Online) Journal homepage: www.tandfonline.com/journals/hihc20
+
+
+
+
+Artiﬁcial Intelligence Chatbots as Relational
+Agents: A Systematic Review of Human–AI
+Chatbot Relationships
+
+Yoo Jung Oh, Junwen M. Hu, Rui Zhu, Jong In Lim & Xinyu Zhang
+
+To cite this article: Yoo Jung Oh, Junwen M. Hu, Rui Zhu, Jong In Lim & Xinyu Zhang (16 Apr
+2026): Artiﬁcial Intelligence Chatbots as Relational Agents: A Systematic Review of Human–
+AI Chatbot Relationships, International Journal of Human–Computer Interaction, DOI:
+10.1080/10447318.2026.2648799
+
+To link to this article: https://doi.org/10.1080/10447318.2026.2648799
+
+
+
+
+       © 2026 The Author(s). Published with
+       license by Taylor & Francis Group, LLC
+
+
+       View supplementary material
+
+
+
+       Published online: 16 Apr 2026.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 4892
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=hihc20
+INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION
+https://doi.org/10.1080/10447318.2026.2648799
+
+
+
+
+Artificial Intelligence Chatbots as Relational Agents: A Systematic
+Review of Human–AI Chatbot Relationships
+Yoo Jung Oh              , Junwen M. Hu               , Rui Zhu          , Jong In Lim              and Xinyu Zhang
+Department of Communication, Michigan State University, East Lansing, Michigan, USA
+
+
+    ABSTRACT                                                                                                                  KEYWORDS
+    This study presents a systematic review guided by the human–AI chatbot Relationship                                       Artificial intelligence;
+    (HAIR) Framework of Social Influence to clarify the antecedents of human–AI chatbot                                       chatbot; human–AI
+    relationships and their social influence outcomes. Following PRISMA guidelines, we                                        relationship; social
+                                                                                                                              influence; trust
+    searched six databases (ACM Digital Library, Web of Science, Scopus, IEEE, EBSCO, and
+    PsycINFO) and identified 16,358 records, of which 68 papers (78 studies) met inclusion
+    criteria. Findings reveal that trust and perceived social support frequently functioned
+    as relational mediators through which chatbots exert social influence. Although chat­
+    bot design features were most commonly examined, message-level factors such as
+    empathy and responsiveness showed extensive associations with relational outcomes
+    but remain underexplored. The literature is dominated by short-term experimental
+    designs, inconsistent conceptualizations of key constructs, and Western samples, limit­
+    ing understanding of long-term and cross-cultural relationship development. This
+    study clarifies the relational processes underlying AI chatbot influence and offers
+    directions for designing more effective human–AI communication.
+
+
+
+
+1. Introduction
+Artificial intelligence (AI) chatbots are conversational agents that have the ability to continuously and
+naturally converse, without a pre-set script (Rapp et al., 2021). A growing body of research highlights
+their potential for social influence across diverse domains, including support provision (Beattie & High,
+2022); health behavior promotion (Oh et al., 2021), business (Mariani et al., 2023), and education (Guo
+& Wang, 2025; Kuhail et al., 2023; Wang et al., 2025). Despite the increasing use of chatbots across
+diverse social influence contexts, chatbots are often framed in primarily instrumental terms, as tools for
+delivering information and executing human commands. Communication research, however, empha­
+sizes that influence unfolds within the context of personal relationships (Katz & Lazarsfeld, 1955),
+pointing to the need to consider chatbots not only as functional tools but also as relational partners.
+   Bickmore and Picard (2005) conceptualized computational programs with which people can form
+personal relationships as relational agents. They argued that a central step in leveraging these agents for
+social influence is supporting users in building such relationships. Advances in AI, machine learning,
+and natural language processing (Brandtzaeg & Følstad, 2017) have since made it possible for AI chat­
+bots to engage in increasingly natural and humanlike conversations. These technological developments
+have expanded chatbots’ roles beyond task completion, enhancing their relational capabilities and pav­
+ing the way for more complex human–chatbot interactions. Recent research underscores the potential
+of human–AI chatbot relationships, revealing that humans can develop relationships with chatbots in a
+similar way to how they establish relationships with other humans, characterized by multiple
+
+CONTACT Dr. Yoo Jung Oh       ohyoojun@msu.edu.        Department of Communication, Michigan State University, 404 Wilson Road, East Lansing,
+MI 48824, USA
+    Supplemental data for this article can be accessed online at https://doi.org/10.1080/10447318.2026.2648799.
+� 2026 The Author(s). Published with license by Taylor & Francis Group, LLC
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which
+permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been
+published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.
+2     Y. J. OH ET AL.
+
+
+
+relationship dimensions such as trust (Ng & Zhang, 2025), rapport (Brixey & Novick, 2019), social con­
+nectedness and closeness (Christoforakos et al., 2021; Lee et al., 2020), and companionship (Skjuve
+et al., 2021). In line with this perspective, recent work has begun to explore human–AI chatbot rela­
+tionship building through both interpersonal concepts, such as trust, and pseudo-personal concepts,
+such as anthropomorphism (for reviews, see Ng & Zhang, 2025, Rapp et al., 2021). Prior reviews have
+primarily adopted an HCI or user-experience lens, emphasizing themes such as satisfaction, engage­
+ment, acceptance, emotional involvement, and perceived humanness (Rapp et al., 2021). Other synthe­
+ses have narrowed their focus to a single relational construct, most notably trust, examining how it is
+defined, operationalized, and predicted (Ng & Zhang, 2025). While these efforts provide valuable
+insights, they do not systematically examine how relational mechanisms function as mediating pathways
+linking chatbot characteristics to downstream social influence outcomes. Consequently, a relationship-
+centered, theory-driven synthesis remains needed.
+   Studies suggest that AI chatbots that are perceived as personal contacts can have unique advantages
+in persuasion tasks such as reducing psychological reactance to social influence through relational com­
+munication, as compared to other types of AI persuasion technology (e.g., contemplator AI technolo­
+gies which help make decisions such as AI doctors). Central to these are similar attributional processes
+like in relational interaction between humans, which suggests that relational communication theories
+can be applied to understanding how human–AI chatbot relationships are built and the impact on
+social influence (Bickmore & Picard, 2005). In this study, we define relationship building outcomes as
+perceptual and behavioral outcomes within users indicating how well users and AI chatbots are con­
+nected. Bickmore and Picard (2005) idea of relational agents leads us to propose the Human–AI
+Chatbot Relationship (HAIR) Framework of Social Influence. Centering the role of relational communi­
+cation, the HAIR framework highlights how communication may foster organic, personal relationships
+between humans and AI chatbots, thereby shaping user perceptions, emotions, and behaviors. While
+the idea of social influence through personal relationships with AI chatbots is promising, existing find­
+ings have yet to be systematically synthesized under such a framework. Here, we present a timely sys­
+tematic review under the HAIR framework. Specifically, we review contributing factors to human–AI
+chatbot relationships (relational outcomes), as well as how human–AI chatbot relationships predict
+social influence outcomes. In reviewing the contributors to relational outcomes from a communication
+perspective, we review findings relevant to user and chatbot characteristics that may impact communi­
+cation processes as well as findings of the features of communication messages exchanged.
+
+
+1.2. Antecedents of human–AI chatbot relationships: User, chatbot, and message
+Existing research on human–AI chatbot relationships has primarily focused on the characteristics of
+chatbot users and the chatbots themselves. In terms of user characteristics, prior studies have examined
+the impact of demographic traits (e.g., Ki et al., 2020), prior experiences with AI chatbots, attitudes
+toward AI (e.g., Gnewuch et al., 2022), personal disposition to trust technology (Prakash et al., 2023),
+user personality (e.g., neuroticism: Meng & Dai, 2021), and the motivations and goals behind interac­
+tions (e.g., Brandtzaeg & Følstad, 2017) on human–AI chatbot relationships. Regarding chatbot charac­
+teristics, research has explored whether factors such as displayed gender (Zogaj et al., 2023), the degree
+of humanness or anthropomorphism (Jiang et al., 2023; Li & Sung, 2021; Youn & Jin, 2021), communi­
+cation competence (Meng et al., 2023), responsiveness (Jiang et al., 2022), and the type of relationship
+formed (Youn & Jin, 2021) affect relational perceptions and behaviors.
+   However, beyond user and chatbot characteristics, message characteristics represent a critical yet
+often overlooked factor in the development and maintenance of human–AI chatbot relationships.
+Communication, at its core, involves the exchange of messages (Lasswell, 1948). The predominant mes­
+sage-centered approach by Burleson (2010) contends that interpersonal communication research should
+focus on studying messages exchanged in interpersonal interactions to understand how relationships
+are built, maintain, and function. The focus on messages highlights the pivotal role of message produc­
+tion and interpretation within social interactions, shaping both relational dynamics and broader social
+behaviors, thus offering precise insights for the construction of more favorable social outcomes
+(Burleson, 2010). The characteristics of messages exchanged between human and AI chatbots can play
+                                                    INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION     3
+
+
+
+a pivotal role in relationship development with AI chatbots (reciprocity: Meng & Dai, 2021; contin­
+gency: Meng et al., 2023). However, research that centers on the influence of message characteristics on
+building human–AI chatbot relationships remains relatively sparse. Meng and Dai (2021) investigated
+how a chatbot’s self-disclosure and provision of emotional support impact individuals’ stress and worry.
+Their findings revealed that reciprocal self-disclosure reduced worry, and self-disclosure could alleviate
+stress, but only when accompanied by emotional support. Other investigations into message characteris­
+tics have delved into the emotionality of the messages (Jiang et al., 2023), support and empathy
+expressed in messages (Lee et al., 2022), message contingency (Meng et al., 2023), disfluency (B€   uhrke
+et al., 2021), and the level of personalization of the messages (Kim & Hur, 2024). Taken together, in
+addition to reviewing findings of user and AI chatbot characteristics that may impact communication
+processes and outcomes, we also review findings about communication message characteristics—all
+three are contributing factors of human–AI chatbot relationships.
+
+
+1.3. Human–AI chatbot relationships and social influence outcomes
+Recent literature examined the associations between human–AI chatbot communication and subsequent
+perceptual and behavioral outcomes (Meng & Dai, 2021; Park et al., 2022). We delineate these out­
+comes into two overarching categories: primary (relational) and secondary (social influence) outcomes.
+Primary outcomes are those directly tied to the immediate human–AI chatbot relationship. Specific
+message exchanges such as self-disclosure or emotional support forms human users’ perceptions of
+intimacy (Park, Chueng, & Lee, Lee et al., 2023), trust (Chen et al., 2025), relational satisfaction (Jiang
+et al., 2022), and emotional bonding (Lee et al., 2022) with the AI chatbot they interact as well as their
+level of engagement. Also, message characteristics have the potential to elicit behavioral reactions,
+including subsequent self-disclosure of personal details as well as the expression of a range of emotions.
+These perceptual (e.g., rapport) and behavioral (e.g., self-disclosure) outcomes are classified as relational
+outcomes. The quality of a human–AI chatbot relationship can vary from nearly non-existent to highly
+intense and interdependent.
+   Interpersonal scholars contend that relational communication can strongly shape social influence out­
+comes (Dillard & Knobloch, 2011). Extending this idea, it is important to consider how human–AI chat­
+bot communication may enhance or limit such outcomes. Prior studies have shown that favorable
+relational outcomes from human–AI chatbot communication are associated with improved psychological
+processes, such as reattributions and reappraisals of stressors (Meng et al., 2023), lower perceived stress
+(Meng & Dai, 2021), better emotional experience (Crolic et al., 2022), and higher self-efficacy (Croes &
+Antheunis, 2021). Studies have also found that relational outcomes are linked to secondary behavioral
+outcomes, such as adherence to health guidelines (Park, Chung, & Lee, 2022), educational achievement
+(De Nieva et al., 2020), and purchasing behaviors (Croes & Antheunis, 2021).
+
+
+1.4. Overview of the current study
+Drawing upon the aforementioned literature, we propose the HAIR framework of social influence (see
+Figure 1), to guide our systematic review. Briefly summarized, we see human–AI chatbot relationship
+building as the bridge between antecedents (i.e., characteristics of users, AI chatbots, and the messages
+exchanged) and social influence outcomes. Our review focuses closely on relationship-related variables
+as key mechanisms in this process. Based on this framework, we pose the following research questions.
+
+RQ1: What characteristics of (a) chatbot, (b) user, and (c) message may influence human–AI chatbot
+ relationships?
+RQ2: What are potential social influence outcomes of human–AI chatbot relationships?
+
+
+2. Methods
+This systematic review has been registered in Open Science Framework (OSF; https://osf.io/xrqtd/
+?view_only=fd2f2e65b0734372a4d1e7e7d32a1e75). The Preferred Reporting Items for Systematic
+4     Y. J. OH ET AL.
+
+
+
+
+Figure 1. Human–AI relationship framework of social influence.
+
+
+
+
+Reviews and Meta-Analyses (PRISMA) statement (Page et al., 2021) has been used in this review (see
+Appendix A for the PRISMA 2020 checklist). This systematic review did not involve the collection of
+new data from human participants. Therefore, institutional ethical approval was not required.
+
+
+2.1. Eligibility criteria
+The eligibility of studies was determined by the following criteria: Study aims, outcomes, chatbot sys­
+tem feature, modality, study design, source type, publication date, and language (Table 1). For this
+review, we included studies on AI chatbots with explicit AI features, focusing on those that primarily
+deliver messages via text or speech, with emphasis on the human-AI interaction and its impacts.
+Eligible studies include cross-sectional, quasi-experimental, and randomized controlled trials, published
+in English in peer-reviewed journals or conference proceedings from January 1st, 2010, to December
+31, 2023. We limited inclusion to 2010 onward to focus on modern AI-driven conversational agents
+capable of sustained and socially interactive communication, as earlier systems were primarily rule-
+based and less suitable for examining relational processes. This criterion aligned with prior reviews
+(e.g., Rapp et al., 2021).
+                                                               INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION                   5
+
+
+
+Table 1. Inclusion and exclusion criteria.
+                                           Inclusion criteria                                    Exclusion criteria
+Study aim(s)              Studies that focus on the interaction between       Studies that assess the effectiveness of AI chatbots
+                             users and AI chatbot with particular attention      in performing specific, instrumental tasks, or their
+                             to the human-side of such interaction.              natural language processing technology or
+                                                                                 algorithms, without exploring the conversational
+                                                                                 & relational experience of the user with the
+                                                                                 chatbot.
+Outcome(s)                Main outcomes: Perceptions and behaviors of         Studies that report only chatbot infrastructure,
+                             human–AI chatbot relationships                      algorithm design, or performance outcomes (e.g.,
+                             Secondary outcomes: Perceptual and                  contingency)
+                             behavioral outcomes relevant to health,
+                             education, and social influence
+Chatbot system feature    Chatbots under investigation have artificial        Chatbots under investigation do not have AI
+                             intelligence (AI) features and the AI features     features.
+                             are mentioned explicitly or elaborated.
+Modality                  Chatbot conveys message through text or speech.     Chatbot conveys messages mainly through visual
+                             In case or multi-modality interaction, either      cues (e.g., animated facial expressions)
+                             text or speech should be the main mode of
+                             interaction
+Study design              Cross-sectional studies, quasi-experimental         Qualitative studies, case-control studies, reviews,
+                             studies, or randomized controlled trials           descriptive studies, or cohort studies
+Source type               Peer-reviewed journal articles or published         Papers published in the adjunct proceedings of
+                             conference proceedings                             conferences (e.g., posters, workshop papers, late-
+                                                                                breaking result papers), reviews, books, or
+                                                                                dissertations
+Publication date          Published between January 2010 to December          Published before 2010
+                            2023
+Language                  English                                             Non-English language
+
+
+
+
+2.2. Information sources
+A systematic search was conducted on six electronic interfaces, including ACM Digital Library, Web of
+Science Core Collection (WOS), SCOPUS, IEEE, EBSCO, and PsycINFO. References of the selected
+studies were checked to identify other eligible studies. Any additional potentially eligible studies were
+identified and screened. References were exported into the online software Covidence (www.covidence.
+org), and duplicates were removed using this tool.
+
+
+2.3. Search strategy
+The search query was a combination of chatbot-related keywords and relationship-related keywords.
+After reviewing past literature, the search terms were thoroughly examined and selected by the team. In
+each database, this search query was used to identify literature containing the search terms in the title
+or abstract. Detailed search strategies can be found in Appendix B.
+
+
+2.4. Study selection
+All retrieved references were reported into the Endnote reference management software (https://end­
+note.com), and duplicates were removed. The remaining references were imported into the Covidence
+systematic review software (http://www.covidence.org), and additional duplicates were removed. Before
+screening the articles, four researchers met to discuss the procedure for title and abstract screening
+using 20 randomly selected papers. Then, two researchers imported approximately 20% of total referen­
+ces for dual screening of titles and abstracts against the eligibility criteria. The agreement in the abstract
+and title screening between two reviewers was 96.7% (Krippendorff’s alpha ¼ 0.72). Then, the remain­
+ing abstract and title screening were done independently. Then, they both reviewed 25% of the full
+text. The agreement was 94.6% (Krippendorff’s alpha ¼ 0.86). After achieving a good level of inter-rater
+reliability, the remaining full texts were split into two and independently assessed. Discrepancies at
+each stage were resolved through discussion with a third reviewer.
+6     Y. J. OH ET AL.
+
+
+
+2.5. Data collection process
+Data extraction was conducted by two independent reviewers. Data collection forms were developed
+based on the Cochrane Handbook for Systematic Reviews of Interventions and the PRISMA strategy
+(Higgins et al., 2019). The data items to be extracted were pilot-tested using a Microsoft Excel spread­
+sheet and a sample of potential studies obtained through the initial iterative search process. A third
+reviewer was involved in resolving any disagreements and cross-checked the accuracy of the extracted
+data.
+
+
+2.6. Data items
+The data extraction form includes study characteristics (e.g., author, published year, study design, set­
+ting, and duration), participant characteristics (e.g., age, gender, education, sample size, race, and socio-
+economic status), study design (e.g., survey or experiment), artificial intelligence under investigation
+(e.g., virtual companion, and chatbots), antecedents (e.g., characteristics of messages, AI chatbots, and
+users), secondary outcomes (e.g., health behavioral change), and safety and ethical assessment.
+
+
+2.7. Data synthesis
+We conducted a qualitative synthesis of findings from eligible studies, covering characteristics of AI
+chatbots, study designs, target population, and primary and secondary outcomes. Regarding risk of bias
+assessment, the Mixed Methods Appraisal Tool (MMAT; Hong et al., 2018) was used to evaluate the
+quality of the selected studies. Consistent with prior MMAT-based systematic reviews that summarize
+study rigor using percentage thresholds (e.g., Chu et al., 2020; El-Awaisi et al., 2018), studies meeting at
+least four or five criteria (� 80%) were considered to be ‘high quality’. We first selected 10 studies and
+all authors independently coded and cross-validated the coding through multiple rounds of discussion
+until we reached consensus. Then, we divided the rest of the studies to be assessed independently.
+
+
+3. Results
+3.1. Study selection
+Figure 2 shows the study selection process. The search yielded 16,358 references in total, from which
+8,631 duplicates were removed. A total of 7,727 abstracts were initially screened, among which 7,357
+were deemed to be ineligible or manually identified as duplicates, leaving 370 to be read in full text. In
+total 68 papers (and 78 corresponding studies) have been included for review.
+
+
+3.2. Risk of bias assessment
+Seventy-eight studies were assessed using the MMAT (see Appendix C). We identified 48 quantitative
+randomized controlled trials, 2 quantitative non-randomized studies, and 27 quantitative descriptive
+studies. Among the studies, 8 randomized controlled trials, 1 non-randomized study, and 20 quantita­
+tive descriptive studies were regarded as high quality. Studies satisfying at least 80% (four or five)
+assessment criteria were considered as high quality. For quantitative randomized controlled trials, the
+criterion “Are the groups comparable at baseline?” was most frequently rated as unclear, with 83.3% of
+studies lacking sufficient reporting of baseline characteristics across groups. For quantitative descriptive
+studies, the most common limitation concerned sample representativeness, with 82.1% of studies rated
+as “No” or “Cannot tell” for whether the sample reflected the target population. These findings indicate
+that many studies did not adequately report baseline comparability or justify how samples represented
+their intended populations.
+                                                         INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION   7
+
+
+
+
+Figure 2. Flow diagram of the study selection process.
+
+3.3. Descriptives of studies
+Table 2 summarizes descriptives of studies. Among the 78 included studies, about two-thirds used
+experimental designs (primarily online), roughly one-third employed surveys, and only a handful were
+content analyses. They were predominantly published between 2021 and 2023, with sample sizes rang­
+ing from under 100 to over 500 participants. Studies commonly focused on specific groups (e.g., stu­
+dents or particular language/experience). Geographically, most studies were conducted in Europe or the
+United States, although a substantial share also involved Asian countries. The studies investigated a
+range of chatbot functions, most commonly generalist assistants (n ¼ 27), social (n ¼ 19), and transac­
+tional (n ¼ 17) chatbots, with fewer focusing on health (n ¼ 10) or educational (n ¼ 4) purposes. In
+terms of investigated antecedents, chatbot-related factors (n ¼ 46) were examined most frequently, fol­
+lowed by user-related (n ¼ 30) and message-related (n ¼ 27) factors. For detailed descriptions for each
+study, refer to Appendix D1.
+
+
+3.4. Antecedents of human–AI chatbot relationships: User, chatbot, and message
+Tables 3 and 4 summarize predictors of four of the most studied relational outcomes in the reviewed
+literature. Because the reviewed studies examined a wide range of relational variables, we adopted a
+8         Y. J. OH ET AL.
+
+
+
+Table 2. Characteristics of included studies.
+Category                 Subcategory            n       Category             Subcategory        n        Category            Subcategory     n
+Study Design      Content analysis               2    Sample sizeb       100 or smaller         25     Function of         Educational        4
+                  Experiment (online)           35                       100–299                20       Chatbots          Health            10
+                  Experiment (lab/in-person)    13                       300–499                22       (purpose)         Generalist        27
+                  Experiment (other)             3                       500 or larger           6                         Social            20
+                  Survey (online)               24    Sample criteria    Age                    23                         Transactional     17
+                  Survey (in-person)             1                       Occupation             16     Antecedents         Chatbot-related   46
+Pub Year          2020 or earlier               14                       Location/nationality   12       examinedc         User-related      30
+                  2021                          10                       Experience/ability     36                         Message-related   27
+                  2022                          15                       Language                7
+                  2023                          35    Sex/gender         Female: > 60%          15
+                  2024                           4                       Female: 40%−60%        39
+      a
+Age               Age mean offered              45                       Female: < 40%          16
+                  Age mode, range,              45    Country            European countries     27
+                     or % offered                                        United States          21
+                                                                         Asian countries        18
+Note: N ¼ 78.
+a
+  Studies offering both age mean value and range were duplicated.
+b
+  Sample sizes reported only for studies where individuals were the unit of analysis.
+c
+  Studies may examine more than one type of antecedent.
+
+
+
+
+Table 3. Predictors of trust.
+Grand category                            Subcategory                                                Specific predictors
+Positive associations
+  Chatbot                       Human-likeliness                               Human-Like Empathya, Facial Expression (Vs. Body Gesture)b,
+                                                                                  Anthropomorphismab,
+                                                                               Human Representationab
+                                Presence                                       Social Presenceb, Authentic Experiencesa
+                                Competence                                     Recommendation(R) Reliabilityb, R Accuracyb, R Choicea,
+                                                                                  Cognitive Competencya, Emotional Competencya, Service
+                                                                                  Qualityab, Task Efficiencya, Personalizationa, Perceived
+                                                                                  Intelligencea, Perceived Expertisea, Service Attitudea,
+                                                                                  Information Migrationab, Identity Migrationab
+                                General Technology Experiences                 Perceived Usefulnessb, Perceived Ease of Useb, Psychological
+                                                                                  Safetya
+                                Others                                         AI Agent (Vs. Other Agents Like Humans)ab
+    Communication                                                              Conversational Stylesb, Empathetic Behaviorsa, Responsivenessa,
+                                                                                  Response Qualityb, Communication Qualityb
+  User                                                                         Propensity To Trust Technologyb
+  Relational                                                                   Perceived Intimacya, Trusting Beliefsb
+  Context                                                                      –
+Negative associations
+  Chatbot                       Competence                                     Fake Informationb, Chatbot Errorb
+                                General Technology Experiences                 –
+  Communication                                                                Immediacy of Fake Information Deliveryb
+  User                                                                         –
+  Relational                                                                   Negative Impressionb
+  Context                                                                      Task Complexityb
+Mixed/null associations
+  Chatbot                       Human-likeliness                               Chatbot Sociabilitya
+                                Competence                                     Relational Competencya, Information Seekinga
+                                General Technology Experiences                 Perceived Controlab, Perceived Riskb
+                                Others                                         Playfulnessa
+    Communication                                                              Social Cueab
+    User                                                                       Privacy Concerna
+    Relational                                                                 Warmtha
+    Context                                                                    Purpose of Chatbotsb
+Note: Numbers indicate references (supplement). Trust is indicated by a variety of variables like cognitive/emotional/relational/benevolence/
+competence trust, trustworthiness, trusting beliefs, and trusting intentions.
+a
+  Relational trust.
+b
+  Instrumental trust. For specific papers, see Appendix D2a.
+
+
+
+parsimonious organizing scheme. Specifically, we grouped relational outcomes into two broad catego­
+ries: relational perceptions and relational behaviors. Relational perceptions include trust and relation­
+ship strength, whereas relational behaviors include self-disclosure and aggression. We based this
+classification on the constructs’ conceptual meanings and thematic commonality. While using these
+                                                                       INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION                        9
+
+
+
+Table 4. Predictors of relationship strength, self-disclosure, and aggression.
+Grand category                      Subcategory                                               Specific predictors
+Relationship strength
+Positive associations
+Chatbot                          Human-Likeliness          AI Sociability, Anthorpormophism
+                                 Presence                  Voice, Social Presence
+                                 Competence                AI Supportiveness
+                                 Others                    Agent
+Message/communication                                      Chatbot Attachment Behaviors, Interaction Duration, Interaction Intensity
+User                                                       User Social Motivation, User Age
+Relational                                                 Relationship Quality
+Negative associations
+Message/Communication                                      Frequency Of Questions Asked
+Relational                                                 Psychological Distance, Trust
+Context                                                    Usage Diversity
+Mixed/null
+Chatbot                          Human-Likeliness          Naming
+User                                                       User Education
+                                                           Self-disclosure
+Self-disclosure
+Positive associations
+Message/communication                                      Frequency of Questions Asked (by Chatbot), Depth of Questions Asked (By Chatbot),
+                                                              Active Listening, First-Person Pronoun (Vs. Third-Person Pronoun Or Vs. Control)
+User                                                       User (Vs. Nonuser)
+Relational                                                 Rapport
+Context                                                    Relational Use, Topic (Acquantaincing Vs. Discussing Life Goals)
+Mixed/null associations
+Chatbot                          Competence                Sensorimotor Competencies, Flexible Action Patterns, Meta-Cognitive Heuristics,
+                                                             Intellectual Competencies
+Message/communication                                      Chatbot Self-Disclosure
+Context                                                    Functional Use
+Aggression
+Positive associations
+User                                                       User Frustration
+Negative associations
+Chatbot                          Human-Likeliness          Chatbot Displayed as A Nonhuman User
+                                 Competence                Chatbot Loebner Score
+Message/communication                                      Nonsense Utterance3, Morality in Communication (Persecutor vs. Victim or Helper)
+Mixed/null associations
+Chatbot                                                    Humanity, Perceived Humanness
+                                                           Gender Known (Vs. Gender Unknown)
+Note: Numbers indicate references (supplement). Relationship strength is indicated by a variety of variables like attachment, affinity, depend­
+ence, etc. Self-disclosure is indicated by either actual self-disclosure or intentions of self-disclosure. Aggression is indicated by users’ aggres­
+sive communication behaviors (swear words, sexual comments, etc.). For 16(1), we re-coded the outcomes for parsimonious presentation
+such that higher communal relationship values indicate higher relationship strength and higher exchange relationship values indicate lower
+relationship strength. For specific papers, see Appendix D2b.
+
+
+
+broad categories for organization, we preserve the original constructs in each study. Tables 3 and 4
+report examples of specific variables. This approach is intentionally conservative, summarizing prior
+work in a way that remains consistent with how the original studies framed their constructs. Therefore,
+we present these relational outcomes together for parsimonious organization of our findings, and read­
+ers should not assume that they are interchangeable relational perceptions or behaviors. For these out­
+comes, the reviewed studies mostly reported positive predictors, while there were some negative and
+mixed/null effect predictors. Overall, cues that make chatbots seem more human-like, socially present,
+and competent tend to show positive associations with relational perceptions (i.e., trust, relationship
+strength), whereas relational behaviors appear more sensitive to communication structure, message fea­
+tures, and users’ momentary states. Notably, the majority of predictors examined were related to chat­
+bot characteristics, with comparatively less attention given to communication, user, relational, or
+contextual factors. The relational outcomes reviewed here are not exhaustive but include the most com­
+mon ones.
+
+
+3.5. Trust
+We first review outcomes that are categorized as trust. Trust has heterogeneous definitions and opera­
+tionalizations, addressing different domains (e.g., general, ability, benevolence; Peng & Wan, 2024) and
+10     Y. J. OH ET AL.
+
+
+
+distinct evaluative aspects (e.g., affective vs. cognitive; Chen et al., 2025). That said, trust is often
+defined as a tendency to believe in AI chatbots in fulfilling their roles and meeting user expectations in
+the studies reviewed.
+   For chatbot-related predictors, various indicators of human-likeliness (e.g., anthropomorphism; Chen
+et al., 2025; Li et al., 2023) and social presence in general (e.g., Prakash et al., 2023) were consistently
+associated with higher trust. Some but not all indicators of competencies (e.g., cognitive, and emotional,
+Chandra et al., 2022) or general technology experiences (e.g., Prakash et al., 2023) were positively linked
+to trust outcomes; some were negatively related to trust (e.g., errors; Kim et al., 2023).
+   For communication-related predictors, quality and supportiveness (empathy: Liao & Yan, 2023;
+responsiveness; Li et al., 2023) were positively related to higher trust whereas speed of delivering
+inaccurate information (Amaro et al., 2024) was negatively related to trust. As for user-related predic­
+tors, propensity to trust was positively associated with trust (Prakash et al., 2023), but privacy concern
+was not consistently significantly related to trust (Li et al., 2023). Relational and context factors were
+also related to trust: higher trusting beliefs (Prakash et al., 2023) and higher intimacy (Qiao et al.,
+2022) were associated with more trust, and higher negative impression (Kim et al., 2023) and task com­
+plexity (Casadei et al., 2022) were associated with lower trust.
+   Across studies, relational trust is primarily driven by socio-emotional and social connection factors.
+For example, relational trust tends to increase when chatbots convey empathy, foster psychological
+safety, feel authentic, and promote relational perceptions such as intimacy. Instrumental trust, on the
+other hand, depends more on chatbots’ task performance and reliability. It increases with usefulness,
+ease of use, and response and communication quality, and it decreases in the presence of errors and
+misinformation. Several predictors are associated with both trust types (e.g., anthropomorphism and
+social cues), suggesting that design features highlighting the chatbot as a social agent can strengthen
+trust both relationally and instrumentally.
+
+
+3.6. Relationship strength
+Compared with trust, fewer studies examined relationship strength. In this review, relationship strength
+refers to the emotional closeness of human–AI chatbot relationships, encompassing outcomes such as
+communal bonding perception (Tschopp et al., 2023) and parasocial relationship perception (Hoffman
+et al., 2021). Chatbot features related to human-likeliness (e.g., AI sociability; Pentina et al., 2023; Xie
+et al., 2023), social presence (e.g., voice; Tschopp et al., 2023), competence (AI supportiveness; Leite
+et al., 2013), were associated with stronger relationships between users and AI chatbots.
+Communication-wise, longer and more intense interactions (Christoforakos et al., 2021), as well as
+more display of attachment behaviors (Xie et al., 2023), were associated with stronger relationships. In
+contrast, having more interactions where chatbots asked extensive questions (Hoffman et al., 2021) was
+associated with weaker relationship strength. At the user level, older individuals (Tschopp et al., 2023)
+and those motivated to interact with chatbots socially (Pentina et al., 2023) were more likely to develop
+stronger relationships with chatbots.
+
+
+3.7. Self-disclosure
+Self-disclosure, as a behavioral relational outcome, refers to the act of revealing personal or private
+information to AI chatbot (e.g., Croes et al., 2023). Compared with trust, studies on self-disclosure
+revealed a different pattern of predictors. Chatbot-level predictors, particularly competence-related cues
+produced mixed findings (e.g., Gieselmann & Sassenberg, 2023), whereas communication-level predic­
+tors (e.g., frequency of questions asked by chatbots, first-person pronouns; Croes et al., 2023) were
+positively related to self-disclosure. Chatbot’s self-disclosure, however, was not significantly related to
+user self-disclosure (Croes et al., 2023). Rapport (Baek & Kim, 2023) and relational use (Xu & Li, 2024)
+of chatbots were positively related to self-disclosure.
+                                                                   INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION                       11
+
+
+
+3.8. Aggression
+Only a small number of studies examined aggression as a relational outcome. Studies revealed that
+lower levels of human-likeliness in chatbots were associated with higher aggression (Keijsers et al.,
+2021). Message features that had higher meaning (Keijsers et al., 2021) and morality (Brendel et al.,
+2020) were linked to lower aggression. Lastly, more user frustration (Brendel et al., 2023) was associated
+with higher aggression. For detailed descriptions for each study, refer to Appendix D2a and D2b.
+
+
+3.9. Human–AI chatbot relationship and social influence outcomes
+In the HAIR framework (Figure 1), secondary outcomes refer to socially influenced perceptions and
+socially influenced behaviors that occur downstream of relational mediators. In Tables 5–7, antecedents
+(X) map onto user, chatbot, or message characteristics, mediators (M) map onto relational perceptions
+or behaviors, and secondary outcomes (Y) map onto socially influenced perceptions or behaviors. We
+summarize each pathway using this structure to make the link to the framework explicit.
+
+3.9.1. Perceptual secondary outcomes
+Table 5 summarizes mediation pathways in which relational perceptions link antecedents to socially
+influenced perceptions. Specifically, Meng and Dai (2021) found that perceived supportiveness of chat­
+bots mediated the effect of emotional support on worry reduction and stress reduction. In a study by
+Cho et al. (2022), perceptions of active listening by a chatbot mediated the effect of backchanneling on
+users’ enthusiastic emotional states. Furthermore, this study explored serial mediation effects and found
+that active listening backchanneling influenced perceived usability through perceived active listening
+and perceived emotional support but not through the serial mediation of perceived active listening and
+positive emotional words. Similarly, Park, Lee, and Chung (2023) found that social rapport perceptions
+mediated the effect of chatbot anthropomorphism on both counseling satisfaction and reuse intention.
+
+3.9.2. Behavioral secondary outcomes
+Tables 6 and 7 summarize mediation pathways in which relational perceptions link antecedents to
+socially influenced behaviors. Trust was the most frequently examined mediator. Trust was most fre­
+quently studied relational mediator. Prakash et al. (2023) reported that trusting beliefs mediated the
+effects of perceived usefulness, perceived ease of use, social presence, and propensity to trust technology
+on users’ intention to continue interacting with chatbots. However, trust did not mediate the effect of
+privacy risk on continuance intention. Similarly, Qiao et al. (2022) demonstrated that trust mediated
+the effects of perceived intimacy on both the intention to utilize the chatbot and the intention to
+explore. Baek and Kim (2023) found that trust mediated the effects of information-seeking and task
+efficacy on continuance intention, but it did not mediate the effects of personalization, social inter­
+action, or playfulness.
+
+Table 5. Mediation effects via human–AI relationship: Perceptual outcomes.
+                                                                                                        Results
+                                                                  Secondary outcomes:
+Mediator (M)                                Antecedent (X)           perceptual (Y)        Sig                Effect                  Article
+Active listening                          Backchanneling         Enthusiasm                �     Serial indirect effect ¼ 0.42,   Cho et al.
+                                                                                                    95% CI [0.0046, 1.0053]          (2022)
+Active listening – Perceived emotional                           Perceived usability       �     Serial indirect effect: 0.35,    Cho et al.
+   support (serial)                                                                                 95% CI [0.0149, 0.9645]          (2022)
+Active listening – Positive emotional                            Perceived usability       �     Serial indirect effect: 0.02,    Cho et al.
+   words (serial)                                                                                   95% CI [−0.1693, 0.3737]         (2022)
+Perceived Supportiveness                  Emotional support      Stress reduction          �     B ¼ .12, SE ¼ .05,               Meng and
+                                                                                                    95% CI [.04, .23]                Dai (2021)
+                                                                 Worry reduction           �     B ¼ .21, SE ¼ .08,               Meng and
+                                                                                                    95% CI [.07, .37]                Dai (2021)
+Social rapport                            Anthropomorphism       Counseling satisfaction   �     0.26, SE ¼ 0.07,                 Prakash et al.
+                                                                                                    95% CI [0.12, 0.41]              (2023)
+Notes: �: studies where the indirect effect was reported with p < 0.05.
+                                                                                                                                                                                                                            12
+
+
+Table 6. Mediation effects via human-AI relationship: Behavioral outcomes (trust as the mediator).
+                                                                                                                                              Results
+                                                                                                                                                            Direct effects
+                                                                   Secondary outcomes:                                                                                                                                      Y. J. OH ET AL.
+Mediator (M)                           Antecedent (X)                 behavioral (Y)         Sig        Indirect effects                     X!M                                   M !Y                       Article
+Trust (Trusting belief)       Perceived usefulness             Continuance intention         �     b ¼ 0.116, t ¼ 3.618         NA                                   NA                                    Prakash et al.
+                                                                                                                                                                                                              (2023)
+                              Perceived ease of use                                          �     b ¼ 0.144, t ¼ 4.304         NA                                   NA                                    Prakash et al.
+                                                                                                                                                                                                              (2023)
+                              Social presence                                                �     b ¼ 0.065, t ¼ 2.529         NA                                   NA                                    Prakash et al.
+                                                                                                                                                                                                              (2023)
+                              Propensity to trust technology                                 �     b ¼ 0.045, t ¼ 1.951         NA                                   NA                                    Prakash et al.
+                                                                                                                                                                                                              (2023)
+Perceived trust worthiness ! Salience of ChatGPT: positive vs Visit intention to         �         95% CI [−0.351, −0.009]      NA                                   NA                                    Kim et al.
+   Satisfaction with            negative ethical issue           recommended destination                                                                                                                      (2023)
+   recommendation            Salience of ChatGPT: positive                               �         95% CI [−0.465, −0.109]      NA                                   NA                                    Kim et al.
+   (serial)                     and quality issue                                                                                                                                                             (2023)
+Trust                        Perceived intimacy               Intention to utilize       �         NA                           b ¼ 0.47, p < 0.001                  b ¼ 0.29, p < 0.001                   Qiao et al.
+                                                                                                                                                                                                              (2022)
+                              Perceived intimacy               Intention to explore          �     NA                           b ¼ 0.47, p < 0.001                  b ¼ 0.20, p < 0.01                    Qiao et al.
+                                                                                                                                                                                                              (2022)
+                              Information seeking              Continuance intention         �     NA                           Standardized estimate ¼ 0.291, Standardized estimate ¼ 0.187,              Baek and Kim
+                                                                                                                                   critical ratio ¼ 1.945, p<0.10    critical ratio ¼ 4.195, p < 0.01         (2023)
+                              Task efficiency                  Continuance intention         �     NA                           Standardized estimate ¼ 0.522, Standardized estimate ¼ 0.187,              Baek and Kim
+                                                                                                                                   critical ratio ¼ 3.073, p <0.01   critical ratio ¼ 4.195, p < 0.01         (2023)
+                              Human representation             Intention to comply with   �        B ¼ 0.09, SE ¼ 0.05,         NA                                 NA                                      Park et al.
+                                                                  chatbot-recommendations             95% CI [0.01, 0.19]                                                                                     (2022)
+Trusting belief               Privacy risk                     Continuance intention      �        Not statistically significant NA                                  NA                                    Prakash et al.
+                                                                                                                                                                                                              (2023)
+Trust                         Personalization                  Continuance intention         �     NA                           Standardized estimate ¼ −0.021,      Standardized estimate ¼ 0.187,        Baek and Kim
+                                                                                                                                   critical ratio ¼ −0.029, p>0.10      critical ratio ¼ 4.195, p < 0.01      (2023)
+                              Social interaction                                             �     NA                           Standardized estimate ¼ 0.237,       Standardized estimate ¼ 0.187,        Baek and Kim
+                                                                                                                                   critical ratio ¼ 1.107, p>0.10       critical ratio ¼ 4.195, p < 0.01      (2023)
+                              Playfulness                                                    �     NA                           Standardized estimate ¼ 0.041,       Standardized estimate ¼ 0.187,        Baek and Kim
+                                                                                                                                   critical ratio ¼ 0.083, p>0.10)      critical ratio ¼ 4.195, p < 0.01      (2023)
+                              Perceived intelligence of AI     Adoption intention of         �     NA                           b ¼ 0.583; t ¼ 13.115; p < 0.001     b ¼ −0.018, t ¼ 0.236, p ¼ 0.407      Liew et al.
+                                                                 SRH chatbots                                                                                                                                 (2023)
+                              Anthropomorphism                                               �     NA                           b ¼ 0.036; t ¼ 0.692; p ¼ 0.245      b ¼ −0.018, t ¼ 0.236, p ¼ 0.407      Liew et al.
+                                                                                                                                                                                                              (2023)
+Notes: �: studies where the indirect effect was reported with p < 0.05, or where the main effects of X on M and M on Y were both significant (p < 0.05)；�: studies where the indirect effect was reported with
+p > 0.05, or where either the effect of X on M or M on Y was not significant (p > 0.05).
+Table 7. Mediation effects via human–AI relationship: Behavioral outcomes (other relational mediators).
+                                                                                                                                          Results
+                                                                                                                                                           Direct effects
+                                                                Secondary outcomes:
+Mediator (M)                      Antecedent (X)                   Behavioral (Y)               Sig            Indirect effects                 X!M                          M !Y                  Article
+Psychological distance        Human representation          Intention to comply with            �           B ¼ 0.07, SE ¼ 0.04,         NA                            NA                     Park et al. (2022)
+                                                               health recommendations                          95% CI [0.02, 0.16]
+Social attraction             Emotional support             Purchase intention                  �           NA                           b ¼ 0.44, p < 0.01            b ¼ 0.34, p < 0.01     Lee et al. (2022)
+                              Informational support                                             �           NA                           b ¼ 0.23, p < 0.01            b ¼ 0.34, p < 0.01     Lee et al. (2022)
+                              Esteem support                                                    �           NA                           b ¼ 0.33, p < 0.01            b ¼ 0.34, p < 0.01     Lee et al. (2022)
+Emotional credibility         Emotional support                                                 �           NA                           b ¼ 0.36, p < 0.01            b ¼ 0.24, p < 0.05     Lee et al. (2022)
+                              Informational support                                             �           NA                           b ¼ 0.26, p < 0.01            b ¼ 0.24, p < 0.05     Lee et al. (2022)
+                              Esteem support                                                    �           NA                           b ¼ 0.30, p < 0.01            b ¼ 0.24, p < 0.05     Lee et al. (2022)
+Perceived knowledge           Disclosure timing             Call length                         �           NA                           B ¼ −2.837, p < 0.001         B ¼ 2.587, p < 0.01    Luo et al. (2019)
+Perceived empathy                                                                               �           NA                           B ¼ −2.371, p < 0.001         B ¼ 1.822, p < 0.001   Luo et al. (2019)
+Social rapport                Anthropomorphism              Reuse intention                     �           B ¼ 0.26, SE ¼ 0.08,         NA                            NA                     Park et al. (2023)
+                                                                                                               95% CI [0.12, 0.42]
+Notes: �: studies where the indirect effect was reported with p < 0.05, or where the main effects of X on M and M on Y were both significant (p < 0.05).
+
+
+
+
+                                                                                                                                                                                                                   INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION
+
+
+
+
+                                                                                                                                                                                                                   13
+14     Y. J. OH ET AL.
+
+
+
+   Other studies reported indirect effects via trust or related relational mediators for outcomes. Kim
+et al. (2023) examined the serial mediation effects of perceived trustworthiness and satisfaction with
+recommendations in relation to salience of ChatGPT issues. They found statistically significant serial
+mediation effects for the relationship between positive vs. negative ethical issues and users’ intention to
+visit recommended destinations, as well as between positive vs. negative quality issues and visit inten­
+tion. Similarly, Park et al. (2022) found that trust mediated the relationship between human-like repre­
+sentation (vs. machine-like) and intention to comply with chatbot recommendations. Additionally, a
+significant serial mediation effect was observed, where trust and psychological distance mediated the
+relationship between human-like representation and intention to comply. However, Liew et al. (2023)
+found that trust did not mediate the effects of perceived intelligence of AI or anthropomorphism on
+users’ intention to adopt sexual and reproductive health information chatbots.
+   Beyond trust, additional relational mediators were identified, including psychological distance, social
+attraction, emotional credibility, perceived knowledge, and perceived empathy, linking antecedents to
+behavioral outcomes such as compliance intention, purchase intention, and call length (Table 7). Park
+and colleagues (2022) found that psychological distance mediated the relationship between human-like
+representation and users’ intention to comply with health recommendations. In a study by Lee et al.
+(2022), social attraction mediated the associations between emotional support, informational support,
+and esteem support with purchase intention. Additionally, emotional credibility was identified as a
+mediator for these associations. Finally, Luo et al. (2019) demonstrated that perceived knowledge and
+perceived empathy mediated the relationship between the timing of disclosing the chatbot’s identity as
+a conversational partner and the length of the call.
+
+
+4. Discussion
+As AI chatbots are evolving rapidly and research on their potential for social influence expands, having
+higher-level theoretical frameworks becomes increasingly salient. Despite the surge in studies, many
+focus on isolated aspects of chatbot interaction. To address this, we draw upon Bickmore and Picard’s
+notion of relational agents (2005) and forward a relationship-centered framework, the HAIR framework
+of social influence. This relationship-centered framework guided our systematic review of studies exam­
+ining the development of human–AI chatbot relationships. Our findings underscore the multifaceted
+nature of human–AI chatbot relationships, with studies spanning diverse contexts and approaches.
+Notably, message-level predictors remain underexplored, despite their potential to yield practical
+insights for chatbot designs. This synthesis revealed that trust and perceived social support frequently
+function as relational mediators through which chatbots exert social influence. Among these, trust
+stood out as the most prominent mediator, consistently linked to persuasion outcomes and intention of
+continue using the chatbots.
+
+
+4.1. A human–AI chatbot relationships perspective to social influence
+Our review distinguishes itself from prior systematic reviews that examined human–AI chatbot relation­
+ships by treating relational perceptions and behaviors not merely as outcomes (e.g., Chaturvedi et al.,
+2023; Ng & Zhang, 2025) but as pathways through which chatbots exert social influence. We identified
+three primary purposes of chatbot deployment: to gain compliance, provide social support and promote
+mental health, and encourage continued chatbot use.
+   Across these outcomes, relationship factors such as trust and perceived social support were generally
+found to mediate the effects of antecedents, including user, chatbot, and message characteristics. While
+scholars often compare human–AI chatbot interactions to interpersonal communication, our synthesis
+suggests a more nuanced pattern. Human-likeness or anthropomorphism consistently predicted trust,
+yet findings were more mixed for other relational outcomes such as relationship strength, self-disclos­
+ure, and aggression. This pattern suggests that human-likeness may be a necessary but not sufficient
+condition for developing strong human–AI relationships. Therefore, developing strong relationships
+with chatbots should be a central consideration when researchers or designers seek to implement chat­
+bots for specific purposes. Indeed, the influence of relational factors is not unique to human–AI
+                                                  INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION     15
+
+
+
+interactions. Relationship dynamics have long been recognized in social influence research as critical
+drivers of persuasion and behavior change (e.g., Cialdini & Goldstein, 2004; Latan�e, 1981).
+
+
+4.2. Influence of user characteristics
+Our results showed that user characteristics can play a meaningful role in shaping human–AI chatbot
+relationships. Consistent with broader human-computer interaction research, individual differences
+such as propensity to trust emerged as important facilitators of relational outcomes (Prakash et al.,
+2023). For instance, users who generally report higher tendencies to trust technology were more likely
+to extend trust toward AI chatbots, suggesting that these baseline user inclinations toward technologies
+may transfer into human–AI chatbot contexts. User demographics and motivations also shaped rela­
+tional outcomes. Age was positively related to relationship strength, with older users more likely to
+form close, enduring bonds with chatbots. This aligns with prior findings that older adults may value
+companionship and supportive communication in digital interactions, thereby enhancing relational
+depth (Tschopp et al., 2023). Similarly, individuals who reported higher social motivations for interact­
+ing with chatbots developed stronger relationships, underscoring the importance of understanding user
+goals when assessing relational dynamics.
+   These findings collectively suggest that human–AI relationships cannot be fully explained by chatbot
+design alone. Instead, users’ dispositional traits, demographic factors, and motivational orientations
+moderate whether relational communication translates into trust, self-disclosure, or deeper relationship
+strength. Future research should further investigate the intersection of these characteristics with chatbot
+and communication features, particularly through longitudinal and cross-cultural designs that can cap­
+ture the variability and evolution of these relationships across diverse user populations.
+
+
+4.3. Influence of chatbot’s characteristics
+Across all functional categories of chatbots, including educational, social, transactional, health, and gen­
+eralist, research consistently prioritizes chatbot-related antecedents. This reflects a prevailing assump­
+tion in the field: that a chatbot’s design and core features are the primary determinants of successful
+interaction. For educational chatbots, this often translates into an emphasis on pedagogical effective­
+ness; for transactional chatbots, efficiency and accuracy are central; for health chatbots, trustworthiness
+and personalized support are critical; and for social chatbots, a believable personality and simulated
+empathy are important. Even for generalist chatbots, adaptability is itself a design choice.
+    This strong focus on chatbot design suggests several implications. First, it highlights the dominance
+of a technology-centered perspective, where improvements to functionality are expected to drive rela­
+tional and behavioral outcomes. Second, it raises the possibility that other antecedents, such as user dis­
+positions or communication dynamics, may be undervalued in current research, potentially limiting the
+field’s understanding of human–AI relationship building. Third, the emphasis on design reflects a ten­
+dency toward short-term, experimental evaluations of isolated features rather than investigations of
+how design interacts with user characteristics and relational processes over time. Finally, this pattern
+underscores the need for integrative approaches, where design is studied not in isolation but as part of
+a broader system in which user characteristics and relational communication are equally central.
+
+
+4.4. A relational communication perspective to human–AI chatbot relationships
+As a central aim of this review, we find that relational mediators, especially trust, generally translated
+the effects of chatbot characteristics (e.g., anthropomorphism: Park et al., 2022), user characteristics
+(e.g., propensity to trust technology: Prakash et al., 2023), and message characteristics (e.g., emotional
+support: Meng & Dai, 2021) to secondary perceptual and behavioral outcomes. This pattern highlights
+the value of incorporating relational processes when designing and evaluating chatbots for social influ­
+ence. These findings also echo prior work on relationship dynamics in social influence, which positions
+the relationship as a critical driver of persuasion and behavior change (e.g., Cialdini & Goldstein, 2004;
+Latan�e, 1981).
+16     Y. J. OH ET AL.
+
+
+
+   This review further expands upon previous systematic reviews by reviewing message-based determi­
+nants of human–AI chatbot relationship development. Although relatively few studies have examined
+the effects of communication content, those that did consistently found that empathic and responsive
+chatbot messages foster stronger bonds between humans and AI (e.g., Cho et al., 2022; Li et al., 2023;
+Liao & Yan, 2023), which in turn are linked to various influence outcomes. These findings underscore
+that, beyond chatbot characteristics and users’ dispositions, it is important to pay more attention to
+communicative exchanges between humans and chatbot. Many constructs that appear to be chatbot-
+level attributes are operationalized in prior work as features of conversational turns or interaction
+sequences, such as responsiveness, empathic behaviors, and personalization enacted in replies. We
+therefore treat these as message characteristics when they are measured or manipulated at the level of
+interaction, and reserve chatbot characteristics for stable system or interface properties.
+   At the same time, because relationships play central roles in AI chatbot social influence, it may be
+promising to apply interpersonal communication theories to human–AI chatbot relationships, while
+carefully testing where these theories translate and where they require revision. For example, whether
+those of supportive communication that underline importance of responsiveness (Holmstrom & Lim,
+2023), can be readily applied to human–AI chatbot communication contexts or not. While early
+research on human-machine communication held that humans tend to automatically apply human-
+human social scripts to interactions with machines (Reeves & Nass, 1996), more recent work argues
+that as people accumulate experience with machines, the scripts guiding human-AI interaction may
+have evolved to be different from those guiding human–AI chatbot interaction (Gambino et al., 2020).
+If so, users may hold distinct expectations for empathic and responsive chatbot communication com­
+pared to interactions with fellow humans. Exploring these social interaction scripts’ differences repre­
+sents a promising direction for future research.
+
+
+4.5. Implications
+This review contributes to future research in several ways. First, it offers scholars a systematic guide to
+studying how relational processes can be harnessed for social influence. Rather than treating relational
+constructs as incidental outcomes, our framework, the HAIR Framework of Social Influence, positions
+them as central pathways through which chatbots build personal relationships with users and exert
+influence. Future research can build on this framework to design studies that examine how different
+antecedents including user, chatbot, and message characteristics shape relational dynamics and, in turn,
+behavioral outcomes.
+   For chatbot developers, the proposed framework offers design principles for creating chatbots that
+serve relational functions across contexts. Beyond technical performance, developers should embed fea­
+tures that foster trust, rapport, and responsiveness, with future work exploring how message strategies
+such as self-disclosure, personalization, and empathy cues can be operationalized ethically. This distinc­
+tion implies two complementary design levels. System- level choices should target stable relational affor­
+dances, such as role framing, identity disclosure, modality, and reliability and error handling features,
+whereas message-level design should specify how empathy, active listening, contingency, calibrated self-
+disclosure, and personalization are enacted in the content of responses. For service providers in sectors
+like health and education, our findings highlight that effective outcomes, whether compliance, support,
+or sustained engagement, depend on cultivating strong human–chatbot relationships. This relational
+leverage also carries risk. Trust and perceived social support may heighten overreliance when chatbot
+interaction becomes a primary source of emotional reassurance or guidance. Work on social compan­
+ion chatbots documents emotional dependence and related harms (Hu et al., 2023), indicating that rela­
+tional benefits and relational risks can coexist (Laestadius et al., 2024). Because most existing studies
+are short term, future research should test relationship centered interventions in real world settings
+using longitudinal designs and outcome measures that track reliance trajectories, potential displacement
+of offline support, and the boundary between supportive engagement and problematic dependence.
+                                                    INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION      17
+
+
+
+4.6. Limitations and future directions
+The current review has several limitations that should be noted. First, we restricted our search to peer-
+reviewed, full-text studies published in English and did not include gray literature, which may limit the
+comprehensiveness of the evidence base. A key assumption of many studies is that AI chatbots are
+used to optimize individuals’ hedonic experiences. With this being natural in individualistic cultures,
+we wonder whether AI chatbots may also serve collective purposes (e.g., enhancing community solidar­
+ity) in collectivist cultures; however, the second aspect is less studied and may be enhanced in future
+research. Second, due to the heterogeneity of outcome measures and the limited number of randomized
+controlled trials (RCTs), we were unable to conduct a meta-analysis, which constrains our ability to
+draw firm conclusions about the effects of AI chatbots on human–AI chatbot relationships. We encour­
+age future research to focus on specific relational outcomes, such as trust and self-disclosure, and to
+conduct meta-analyses to quantify the magnitude and boundary conditions of these effects as the evi­
+dence base continues to grow. Third, the risk of bias assessment identified several recurring methodo­
+logical concerns. Many randomized trials did not clearly report baseline comparability across groups,
+and a large proportion of descriptive studies relied on samples with limited representativeness. Because
+our findings were not weighted or restricted by study quality, conclusions reflect the full range of meth­
+odological rigor and should therefore be interpreted cautiously. Future work should prioritize stronger
+sampling procedures and clearer reporting practices. In addition, many of the included studies exam­
+ined interactions of very short duration, making it difficult to draw conclusions about the development
+of human–AI chatbot relationships. Because relationships are inherently dynamic and tend to evolve
+over time, short-term designs limit our ability to assess whether initial relational perceptions translate
+into sustained relationships. Future work should employ longer-term study designs to better capture
+the trajectories of relationship building with chatbots.
+   This review also highlights key limitations in the current state of research. A primary concern is the
+inconsistency, and sometimes absence, of clear conceptual and operational definitions for variables,
+including antecedents, mediators, and outcomes. These inconsistencies pose challenges to synthesizing
+prior research and accumulating coherent findings. For example, trust can be defined and operational­
+ized both generally and multi-dimensionally (Rapp et al., 2021), with different implications depending
+on the specific definitions and operationalizations used. As Rapp and his colleagues pointed out,
+research has often defined and measured trust in a specific way without sufficient justifications of the
+choice, thus making undue generalizations of their findings. In addition, chatbots have been seen both
+as service providers or tools (e.g., Adam et al., 2021) and relational agents (Brandtzaeg et al., 2022).
+Trust in service providers can be more instrumental, whereas trust in social agents can be more inter­
+personal and relational. Failure to distinguish between instrumental and relational trust can lead to
+inaccurate generalizations in research syntheses (Rapp et al., 2021). Future research should prioritize
+theoretical clarity by explicitly distinguishing between different types of trust (e.g., instrumental vs. rela­
+tional) and aligning measurement with these definitions. Doing so will allow findings to be meaning­
+fully compared across studies and accumulated into broader theoretical insights.
+
+
+5. Conclusion
+This systematic review synthesizes research on human–AI chatbot relationships, identifying key antece­
+dents, relational mediators, and social influence outcomes. It highlights how relationships with chatbots
+serve as a central process through which social influence unfolds, with message characteristics playing
+an especially understudied role. In doing so, the review informs both theoretical advancement and
+practical design of AI chatbots across diverse contexts.
+   Future research on human–AI chatbot relationships should explicitly integrate interpersonal commu­
+nication theory with human-computer interaction research. Interpersonal communication perspectives
+identify message mechanisms that produce relational states, whereas HCI specifies the design and sys­
+tem constraints that determine whether these cues support sustained, appropriate use. We outline three
+integration pathways. First, construct alignment is needed to enable cumulative evidence, including
+clear distinctions between relational trust and instrumental trust and between perceived support and
+18     Y. J. OH ET AL.
+
+
+
+usability or satisfaction. Second, boundary conditions should be theorized and tested, including how
+errors, transparency cues, privacy costs, and prior AI experience shape the transfer of human–human
+interaction scripts. Third, methodological integration should link message-level analysis with longitu­
+dinal, ecologically valid evaluations that capture relationship trajectories and downstream influence.
+This agenda positions the HAIR framework as a cumulative scaffold for explaining when relational
+communication promotes beneficial influence versus when it produces miscalibration and overreliance.
+
+
+Ethical approval
+This study is a systematic review of previously published research. No new data involving human participants
+were collected or analyzed. Therefore, institutional ethical approval was not required.
+
+
+Author contributions
+CRediT: Yoo Jung Oh: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project
+administration, Supervision, Writing – original draft, Writing – review & editing; Junwen M. Hu:
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Writing – original draft, Writing –
+review & editing; Rui Zhu: Conceptualization, Data curation, Formal analysis, Investigation, Methodology,
+Writing – original draft, Writing – review & editing; Jong In Lim: Conceptualization, Data curation, Formal ana­
+lysis, Investigation, Methodology, Writing – original draft, Writing – review & editing; Xinyu Zhang:
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Writing – original draft, Writing –
+review & editing.
+
+
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+
+
+Funding
+This research did not receive financial support.
+
+
+
+ORCID
+Yoo Jung Oh      http://orcid.org/0000-0002-7829-8535
+Junwen M. Hu       http://orcid.org/0000-0001-9571-9947
+Rui Zhu     http://orcid.org/0000-0002-0123-1156
+Jong In Lim     http://orcid.org/0000-0001-8587-4847
+
+
+Data availability statement
+Data is available upon reasonable request from the correspondence author.
+
+
+References
+Adam, M., Wessel, M., & Benlian, A. (2021). AI-based chatbots in customer service and their effects on user com­
+  pliance. Electronic Markets, 31(2), 427–445. https://doi.org/10.1007/s12525-020-00414-7
+Baek, T., & Kim, M. (2023). Is ChatGPT scary good? How user motivations affect creepiness and trust in genera­
+  tive artificial intelligence. Telematics and Informatics, 83, 102030. https://doi.org/10.1016/j.tele.2023.102030
+Beattie, A., & High, A. (2022). I get by with a little help from my bots: Implications of machine agents in the con­
+  text of social support. Human-Machine Communication, 4, 151–168. https://doi.org/10.30658/hmc.4.8
+Bickmore, T. W., & Picard, R. W. (2005). Establishing and maintaining long-term human-computer relationships.
+  ACM Transactions on Computer-Human Interaction, 12(2), 293–327. https://doi.org/10.1145/1067860.1067867
+Brandtzaeg, P. B., & Følstad, A. (2017). Why people use chatbots. In Internet Science: 4th International Conference,
+  INSCI 2017, Thessaloniki, Greece, November 22-24, 2017, Proceedings 4 (pp. 377–392). Springer International
+  Publishing.
+Brandtzaeg, P. B., Skjuve, M., & Følstad, A. (2022). My AI friend: How users of a social chatbot understand their
+  human–AI friendship. Human Communication Research, 48(3), 404–429. https://doi.org/10.1093/hcr/hqac008
+                                                        INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION          19
+
+
+
+Brixey, J., & Novick, D. (2019). Building Rapport with Extraverted and Introverted Agents. In Lecture Notes in
+   Electrical Engineering. (pp. 3–13). Springer International Publishing.
+B€
+ uhrke, J., Brendel, A. B., Lichtenberg, S., Greve, M., & Mirbabaie, M. (2021). Is making mistakes human? On the
+   perception of typing errors in chatbot communication. Proceedings of the [Paper presentation]. Hawaii
+   International Conference on System Sciences, 54th. https://doi.org/10.24251/HICSS.2021.541
+Burleson, B. R. (2010). The nature of interpersonal communication: A message-centered approach. In M. L.
+   Knapp & J. A. Daly (Eds.), The Sage handbook of interpersonal communication (pp. 145–164). SAGE
+   Publications, Inc.
+Chaturvedi, R., Verma, S., Das, R., & Dwivedi, Y. K. (2023). Social companionship with artificial intelligence:
+   Recent trends and future avenues. Technological Forecasting and Social Change, 193, 122634. https://doi.org/10.
+   1016/j.techfore.2023.122634
+Chen, Q., Yin, C., & Gong, Y. (2025). Would an AI chatbot persuade you: An empirical answer from the elabor­
+   ation likelihood model. Information Technology & People, 38(2), 937–962. https://doi.org/10.1108/ITP-10-2021-
+   0764
+Cho, E., Motalebi, N., Sundar, S. S., & Abdullah, S. (2022). Alexa as an active listener: How backchanneling can
+   elicit self-disclosure and promote user experience. Proceedings of the ACM on Human-Computer Interaction,
+   6(CSCW2), 1–23. https://doi.org/10.1145/3555164
+Chu, I. Y. H., Alam, P., Larson, H. J., & Lin, L. (2020). Social consequences of mass quarantine during epidemics:
+   A systematic review with implications for the COVID-19 response. Journal of Travel Medicine, 27(7), taaa192.
+   https://doi.org/10.1093/jtm/taaa192
+Christoforakos, L., Feicht, N., Hinkofer, S., L€oscher, A., Schlegl, S. F., & Diefenbach, S. (2021). Connect with me.
+   Exploring influencing factors in a human-technology relationship based on regular chatbot use. Frontiers in
+   Digital Health, 3, 689999. https://doi.org/10.3389/fdgth.2021.689999
+Cialdini, R. B., & Goldstein, N. J. (2004). Social influence: Compliance and conformity. Annual Review of
+   Psychology, 55(1), 591–621. https://doi.org/10.1146/annurev.psych.55.090902.142015
+Croes, E. A. J., & Antheunis, M. L. (2021). Can we be friends with Mitsuku? A longitudinal study on the process
+   of relationship formation between humans and a social chatbot. Journal of Social and Personal Relationships,
+   38(1), 279–300. https://doi.org/10.1177/0265407520959463
+Crolic, C., Thomaz, F., Hadi, R., & Stephen, A. T. (2022). Blame the bot: Anthropomorphism and anger in cus­
+   tomer–chatbot interactions. Journal of Marketing, 86(1), 132–148. https://www.google.com/search?q= https://doi.
+   org/10.1177/00222429211045687
+De Nieva, J. O., Joaquin, J. A., Tan, C. B., Marc Te, R. K., & Ong, E. 6th (2020). Investigating students’ use of a
+   mental health chatbot to alleviate academic stress [Paper presentation]. International ACM In-Cooperation HCI
+   and UX Conference. ACM, In.
+Dillard, J. P., & Knobloch, L. K. (2011). Interpersonal influence. In M. L. Knapp & J. A. Daly (Eds.), The SAGE
+   handbook of interpersonal communication (pp. 389–422). SAGE Publications.
+El-Awaisi, A., Joseph, S., El Hajj, M. S., & Diack, L. (2018). A comprehensive systematic review of pharmacy per­
+   spectives on interprofessional education and collaborative practice. Research in Social & Administrative
+   Pharmacy: RSAP, 14(10), 863–882. https://doi.org/10.1016/j.sapharm.2017.11.001
+Følstad, A., Nordheim, C. B., & Bjørkli, C. A. (2018). What makes users trust a chatbot for customer service? An
+   exploratory interview study. In Internet Science. (pp. 194–208). Springer International Publishing. https://doi.
+   org/10.1007/978-3-030-01437-7_16
+Gambino, A., Fox, J., & Ratan, R. (2020). Building a stronger CASA: Extending the computers are social actors
+   paradigm. Human-Machine Communication, 1, 71–86. https://doi.org/10.30658/hmc.1.5
+Gnewuch, U., Morana, S., Adam, M. T. P., & Maedche, A. (2022). Opposing effects of response time in human–
+   chatbot interaction: The moderating role of prior experience. Business & Information Systems Engineering,
+   64(6), 773–791. https://www.google.com/search?q= https://doi.org/10.1007/s12599-022-00755-x
+Guo, Y., & Wang, Y. (2025). Exploring the effects of artificial intelligence application on EFL students’ academic
+   engagement and emotional experiences: A Mixed-Methods study. European Journal of Education, 60(1), e12812.
+   https://doi.org/10.1111/ejed.12812
+Higgins, J. P. T., Thomas, J., Chandler, J., Cumpston, M., Li, T., Page, M. J., & Welch, V. A. (Eds.) (2019).
+   Cochrane handbook for systematic reviews of interventions (2nd ed.). John Wiley & Sons.
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff,
+   J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hr� objartsson, A., Lalu, M. M., Li, T.,
+   Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated
+   guideline for reporting systematic reviews. BMJ (Clinical Research ed.), 372, n71. https://doi.org/10.1136/bmj.n71
+Holmstrom, A. J., & Lim, J. I. (2023). Responsiveness and esteem support. Current Opinion in Psychology, 52,
+   101591. https://doi.org/10.1016/j.copsyc.2023.101591
+Hong, Q. N., F�abregues, S., Bartlett, G., Boardman, F., Cargo, M., S. (2023). Is artificial intelligence more persua­
+   sive than humans? A meta-analysis. Journal of Communication, 73, 552–562.
+20      Y. J. OH ET AL.
+
+
+
+Dagenais, P., Gagnon, M.-P., Griffiths, F., Nicolau, B., O’Cathain, A., Rousseau, M.-C., Vedel, I., Pluye, P., &
+   Wang, G. (2018). The Mixed Methods Appraisal Tool (MMAT) version 2018 for information professionals and
+   researchers. Education for Information, 34(4), 285–291. https://doi.org/10.3233/EFI-180221
+Jiang, H., Cheng, Y., Yang, J., & Gao, S. (2022). AI-powered chatbot communication with customers: Dialogic
+   interactions, satisfaction, engagement, and customer behavior. Computers in Human Behavior, 134, 107329.
+   https://doi.org/10.1016/j.chb.2022.107329
+Jiang, Y., Yang, X., & Zheng, T. (2023). Make chatbots more adaptive: Dual pathways linking human-like cues
+   and tailored response to trust in interactions with chatbots. Computers in Human Behavior, 138, 107485.
+   https://doi.org/10.1016/j.chb.2022.107485
+Katz, E., & Lazarsfeld, P. F. (1955). Personal influence: The part played by people in the flow of mass communica­
+   tion. Free Press.
+Ki, C.-W., Cho, E., & Lee, J.-E. (2020). Can an intelligent personal assistant (IPA) be your friend? Para-friendship
+   development mechanism between IPAs and their users. Computers in Human Behavior, 111, 106412. https://doi.
+   org/10.1016/j.chb.2020.106412
+Kim, W. B., & Hur, H. J. (2024). What makes people feel empathy for AI chatbots? Assessing the role of compe­
+   tence and warmth. International Journal of Human–Computer Interaction, 40(17), 4674–4687. https://doi.org/10.
+   1080/10447318.2023.2219961
+Kim, J. H., Kim, J., Kim, C., & Kim, S.. (2023). Do you trust ChatGPTs? Effects of the ethical and quality issues of
+   generative AI on travel decisions. Journal of Travel & Tourism Marketing, 40(9), 779–801. https://doi.org/10.
+   1080/10548408.2023.2293006
+Kuhail, M. A., Alturki, N., Alramlawi, S., & Alhejori, K. (2023). Interacting with educational chatbots: A systematic
+   review. Education and Information Technologies, 28(1), 973–1018. https://doi.org/10.1007/s10639-022-11177-3
+Laestadius, L., Bishop, A., Gonzalez, M., Illen�c�ık, D., & Campos-Castillo, C. (2024). Too human and not human
+   enough: A grounded theory analysis of mental health harms from emotional dependence on the social chatbot
+   Replika. New Media & Society, 26(10), 5923–5941. https://doi.org/10.1177/14614448221142007
+Lasswell, H. D. (1948). The structure and function of communication in society. In L. Bryson (Ed.), The communi­
+   cation of ideas (pp. 37–51). Haper and Brothers.
+Latan�e, B. (1981). The psychology of social impact. American Psychologist, 36(4), 343–356. https://doi.org/10.1037/
+   0003-066X.36.4.343
+Lee, C. T., Pan, L.-Y., & Hsieh, S. H. (2022). Artificial intelligent chatbots as brand promoters: A two-stage struc­
+   tural equation modeling-artificial neural network approach. Internet Research, 32(4), 1329–1356. https://doi.org/
+   10.1108/INTR-01-2021-0030
+Lee, S., Lee, N., & Sah, Y. J. (2020). Perceiving a mind in a chatbot: Effect of mind perception and social cues on
+   co-presence, closeness, and intention to use. International Journal of Human–Computer Interaction, 36(10),
+   930–940. https://doi.org/10.1080/10447318.2019.1699748
+Li, X., & Sung, Y. (2021). Anthropomorphism brings us closer: The mediating role of psychological distance in
+   User–AI assistant interactions. Computers in Human Behavior, 118, 106680. https://doi.org/10.1016/j.chb.2021.
+   106680
+Liew, T. W., Tan, S.-M., Yoo, N. E., Gan, C. L., & Lee, Y. Y. (2023). Let’s talk about sex!: AI and relational factors
+   in the adoption of a chatbot conveying sexual and reproductive health information. Computers in Human
+   Behavior Reports, 11, 100323. https://doi.org/10.1016/j.chbr.2023.100323
+Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). Machines versus humans: The impact of AI chatbot disclosure on
+   customer purchases. SSRN Electronic Journal, 20–33. https://doi.org/10.2139/ssrn.3435635
+Mariani, M. M., Hashemi, N., & Wirtz, J. (2023). Artificial intelligence empowered conversational agents: A sys­
+   tematic literature review and research agenda. Journal of Business Research, 161, 113838. https://doi.org/10.1016/
+   j.jbusres.2023.113838
+Meng, J., & Dai, Y. (.). (2021). Emotional support from AI chatbots: Should a supportive partner self-disclose or
+   not? Journal of Computer-Mediated Communication, 26(4), 207–222. https://doi.org/10.1093/jcmc/zmab005
+Meng, J., Rheu, M. (.,)Zhang, Y., Dai, Y., & Peng, W. (2023). Mediated social support for distress reduction: AI
+   chatbots vs. Human. Proceedings of the ACM on Human-Computer Interaction, 7(CSCW1), 1–25. https://doi.
+   org/10.1145/3579505
+Ng, S. W. T., & Zhang, R. (2025). Trust in AI-driven chatbots: A systematic review. Telematics and Informatics,
+   97, 102240. https://doi.org/10.1016/j.tele.2025.102240
+Oh, Y. J., Zhang, J., Fang, M.-L., & Fukuoka, Y. (2021). A systematic review of artificial intelligence chatbots for
+   promoting physical activity, healthy diet, and weight loss. The International Journal of Behavioral Nutrition and
+   Physical Activity, 18(1), 160. https://doi.org/10.1186/s12966-021-01224-6
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff,
+   J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hr� objartsson, A., Lalu, M. M., Li, T.,
+   Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated
+   guideline for reporting systematic reviews. BMJ (Clinical Research ed.), 372, n71. https://doi.org/10.1136/bmj.n71
+                                                        INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION         21
+
+
+
+Pan, S., Cui, J., & Mou, Y. (2024). Desirable or distasteful? Exploring uncertainty in human-chatbot relationships.
+  International Journal of Human–Computer Interaction, 40(20), 6545–6555. https://doi.org/10.1080/10447318.
+  2023.2256554
+Park, G., Chung, J., & Lee, S. (2022). Effect of AI chatbot emotional disclosure on user satisfaction and reuse
+  intention for mental health counseling: A serial mediation model. Current Psychology (New Brunswick, N.J.),
+  42(32), 1–11. https://doi.org/10.1007/s12144-022-03932-z
+Park, G., Lee, S., & Chung, J. (2023). Do anthropomorphic chatbots increase counseling satisfaction and reuse
+  intention? The moderated mediation of social rapport and social anxiety. Cyberpsychology, Behavior and Social
+  Networking, 26(5), 357–365. https://doi.org/10.1089/cyber.2022.0157
+Park, N., Jang, K., Cho, S., & Choi, J. (2021). Use of offensive language in human-artificial intelligence chatbot
+  interaction: The effects of ethical ideology, social competence, and perceived humanlikeness. Computers in
+  Human Behavior, 121, 106795. https://doi.org/10.1016/j.chb.2021.106795
+Pentina, I., Hancock, T., & Xie, T. (2023). Exploring relationship development with social chatbots: A mixed-
+  method study of replika. Computers in Human Behavior, 140, 107600. https://doi.org/10.1016/j.chb.2022.107600
+Prakash, A. V., Joshi, A., Nim, S., & Das, S. (2023). Determinants and consequences of trust in AI-based customer
+  service chatbots. The Service Industries Journal, 43(9-10), 642–675. https://doi.org/10.1080/02642069.2023.
+  2166493
+Qiao, Q., Wu, W., & Li, Y. (2022). Enhancing consumer usage of AI-chatbots: The role of perceived humanness,
+  social presence, and social interactivity [Paper presentation].2022 8th International Conference on Information
+  Management (ICIM), pp. 97–103. https://doi.org/10.1109/ICIM56520.2022.00025
+Rapp, A., Curti, L., & Boldi, A. (2021). The human side of human-chatbot interaction: A systematic literature
+  review of ten years of research on text-based chatbots. International Journal of Human-Computer Studies, 151,
+  102630. https://doi.org/10.1016/j.ijhcs.2021.102630
+Skjuve, M., Følstad, A., Fostervold, K. I., & Brandtzaeg, P. B. (2021). My chatbot companion - a study of human-
+  chatbot relationships. International Journal of Human-Computer Studies, 149, 102601. https://doi.org/10.1016/j.
+  ijhcs.2021.102601
+Sundar, S. S., & Lee, E.-J. (2022). Rethinking communication in the era of artificial intelligence. Human
+  Communication Research, 48(3), 379–385. https://www.google.com/search?q= https://doi.org/10.1093/hcr/
+  hqac014
+Vena-Oya, J., Casta~neda-Garc�ıa, J. A., & Burys, J. (2024). Chatbot service quality: An experiment comparing two
+  countries with different levels of digital literacy. Tourism and Hospitality, 5(2), 276–289. https://doi.org/10.3390/
+  tourhosp5020018
+Wang, X., Gao, Y., Reynolds, B. L., & Wang, Q. (2025). Exploring Chinese EFL learners’ beliefs about AI-mediated
+  informal digital learning of English: Insights from Q methodology. Porta Linguarum Revista Interuniversitaria
+  de Did�actica de Las Lenguas Extranjeras, (XIII), 131–146. https://doi.org/10.30827/portalin.viXIII.31925
+Weizenbaum, J. (1966). ELIZA—A computer program for the study of natural language communication between
+  man and machine. Communications of the ACM, 9(1), 36–45. https://doi.org/10.1145/365153.365168
+Xie, T., & Pentina, I. (2022). Attachment theory as a framework to understand relationships with social chatbots: A
+  case study of replika. In Proceedings of the Annual [Paper presentation]. Hawaii International Conference on
+  System Sciences. Hawaii International Conference on System Sciences. https://doi.org/10.24251/HICSS.2022.258
+Youn, S., & Jin, S. V. (2021). In A.I. we trust?” The effects of parasocial interaction and technopian versus luddite
+  ideological views on chatbot-based customer relationship management in the emerging “feeling economy.
+  Computers in Human Behavior, 119, 106721. https://doi.org/10.1016/j.chb.2021.106721
+Zogaj, A., M€ahner, P. M., Yang, L., & Tscheulin, D. K. (2023). It’s a Match! The effects of chatbot anthropo­
+  morphization and chatbot gender on consumer behavior. Journal of Business Research, 155, 113412. https://doi.
+  org/10.1016/j.jbusres.2022.113412
+
+
+�References of Included/Reviewed studies.
+�Alimamy, S., & Kuhail, M. A. (2023). I will be with you Alexa! The impact of intelligent virtual assistant’s
+  authenticity and personalization on user reusage intentions. Computers in Human Behavior, 143, 107711.
+  https://doi.org/10.1016/j.chb.2023.107711
+�Amaro, I., Barra, P., Greca, A. D., Francese, R., & Tucci, C. (2024). Believe in Artificial Intelligence? A User
+  Study on the ChatGPT’s Fake Information Impact. IEEE Transactions on Computational Social Systems, 11(4),
+  5168–5177. https://doi.org/10.1109/TCSS.2023.3291539
+�Aoki, N. (2020). An experimental study of public trust in AI chatbots in the public sector. Government
+  Information Quarterly, 37(4), 101490. https://doi.org/10.1016/j.giq.2020.101490
+�Bastiansen, M. H. A., Kroon, A. C., & Araujo, T. (2022). Female chatbots are helpful, male chatbots are compe­
+  tent?: The effects of gender and gendered language on human-machine communication. Publizistik, 67(4), 601–
+  623. https://doi.org/10.1007/s11616-022-00762-8
+22      Y. J. OH ET AL.
+
+
+�Brahnam, S., & De Angeli, A. (2012). Gender affordances of conversational agents. Interacting with Computers,
+  24(3), 139–153. https://doi.org/10.1016/j.intcom.2012.05.001
+�Brendel, A. B., Greve, M., Diederich, S., B€     uhrke, J., Kolbe, L. M. (2020). (13). You are an Idiot! – How
+  Conversational Agent Communication Patterns Influence Frustration and Harassment. AMCIS 2020
+  Proceedings, https://aisel.aisnet.org/amcis2020/sig_hci/sig_hci/13
+�Brendel, A. B., Hildebrandt, F., Dennis, A. R., & Riquel, J. (2023). The paradoxical role of humanness in aggres­
+  sion toward conversational agents. Journal of Management Information Systems, 40(3), 883–913. https://doi.org/
+  10.1080/07421222.2023.2229127
+�Calahorra-Candao, G., & Mart�ın-de Hoyos, M. J. (2024). The effect of anthropomorphism of virtual voice assis­
+  tants on perceived safety as an antecedent to voice shopping. Computers in Human Behavior, 153, 108124.
+  https://doi.org/10.1016/j.chb.2023.108124
+�Campos, J., Kennedy, J., & Lehman, J. F. (2018). Challenges in exploiting conversational memory in human-agent
+  interaction. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems,
+  pp. 1649–1657.
+�Casadei, A., Schlogl, S., & Bergmann, M. (2022). Chatbots for Robotic Process Automation: Investigating Perceived
+  Trust and User Satisfaction [Paper presentation].2022 IEEE 3rd International Conference on Human-Machine
+  Systems (ICHMS), pp. 1–6. https://doi.org/10.1109/ICHMS56717.2022.9980826
+�Chandra, S., Shirish, A., & Srivastava, S. C. (2022). To be or not to be … human? Theorizing the role of human-
+  like competencies in conversational artificial intelligence agents. Journal of Management Information Systems,
+  39(4), 969–1005. https://doi.org/10.1080/07421222.2022.2127441
+�Chen, J., Guo, F., Ren, Z., Li, M., & Ham, J. (2024). Effects of anthropomorphic design cues of chatbots on users’
+  perception and visual behaviors. International Journal of Human–Computer Interaction, 40(14), 3636–3654.
+  https://doi.org/10.1080/10447318.2023.2193514
+�Chen, Q., Lu, Y., Gong, Y., & Xiong, J. (2023). Can AI chatbots help retain customers? Impact of AI service qual­
+  ity on customer loyalty. Internet Research, 33(6), 2205–2243. https://doi.org/10.1108/INTR-09-2021-0686
+�Chen, Q., Yin, C., & Gong, Y. (2025). Would an AI chatbot persuade you: An empirical answer from the elabor­
+  ation likelihood model. Information Technology & People, 38(2), 937–962. https://doi.org/10.1108/ITP-10-2021-
+  0764
+�Cho, E., Motalebi, N., Sundar, S. S., & Abdullah, S. (2022). Alexa as an active listener: how backchanneling can
+  elicit self-disclosure and promote user experience. Proceedings of the ACM on Human-Computer Interaction,
+  6(CSCW2), 1–23. https://doi.org/10.1145/3555164
+�Christoforakos, L., Feicht, N., Hinkofer, S., L€oscher, A., Schlegl, S. F., & Diefenbach, S. (2021). Connect with me.
+  Exploring influencing factors in a human-technology relationship based on regular chatbot use. Frontiers in
+  Digital Health, 3, 689999. https://doi.org/10.3389/fdgth.2021.689999
+�Croes, E. A. J., & Antheunis, M. L. (2021). Can we be friends with Mitsuku? A longitudinal study on the process
+  of relationship formation between humans and a social chatbot. Journal of Social and Personal Relationships,
+  38(1), 279–300. https://doi.org/10.1177/0265407520959463
+�Croes, E. A. J., Antheunis, M. L., Goudbeek, M. B., & Wildman, N. W. (2023). “I am in your computer while we
+  talk to each other” a content analysis on the use of language-based strategies by humans and a social chatbot in
+  initial human-chatbot interactions. International Journal of Human–Computer Interaction, 39(10), 2155–2173.
+  https://doi.org/10.1080/10447318.2022.2075574
+�Darcy, A., Daniels, J., Salinger, D., Wicks, P., & Robinson, A. (2021). Evidence of human-level bonds established
+  with a digital conversational agent: Cross-sectional, retrospective observational study (preprint). JMIR Formative
+  Research, 5(5), e27868. https://doi.org/10.2196/preprints.27868
+�Degachi, C., Tielman, M. L., & Al Owayyed, M. (2023). Trust and perceived control in burnout support chatbots
+  [Paper presentation]. Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing
+  Systems, pp. 1–10. https://doi.org/10.1145/3544549.3585780
+�Diederich, S., Janssen-M€ uller, M., Brendel, A. B., & Morana, S. (2019). Emulating empathetic behavior in online
+  service encounters with sentiment-adaptive responses: insights from an experiment with a conversational agent
+  [Paper presentation]. Icis, December).
+�Drouin, M., Sprecher, S., Nicola, R., & Perkins, T. (2022). Is chatting with a sophisticated chatbot as good as
+  chatting online or FTF with a stranger? Computers in Human Behavior, 128, 107100. https://doi.org/10.1016/j.
+  chb.2021.107100
+�Forman-Hoffman, V. L., Pirner, M. C., Flom, M., Kirvin-Quamme, A., Durden, E., Kissinger, J. A., & Robinson,
+  A. (2023). Engagement, satisfaction, and mental health outcomes across different residential subgroup users of a
+  digital mental health relational agent: Exploratory single-arm study. JMIR Formative Research, 7, e46473.
+  https://doi.org/10.2196/46473
+�Fu, C., Yoshikawa, Y., Iio, T., & Ishiguro, H. (2021). Sharing experiences to help a robot present its mind and
+  sociability. International Journal of Social Robotics, 13(2), 341–352. https://doi.org/10.1007/s12369-020-00643-y
+�Gieselmann, M., & Sassenberg, K. (2023). The more competent, the better? The effects of perceived competencies
+  on disclosure towards conversational artificial intelligence. Social Science Computer Review, 41(6), 2342–2363.
+  https://doi.org/10.1177/08944393221142787
+                                                       INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION         23
+
+
+�He, Y., Yang, L., Zhu, X., Wu, B., Zhang, S., Qian, C., & Tian, T. (2022). Mental health chatbot for young adults
+   with depressive symptoms during the COVID-19 pandemic: Single-Blind, three-arm randomized controlled
+   trial. Journal of Medical Internet Research, 24(11), e40719. https://doi.org/10.2196/40719
+�Hoffman, A., Owen, D., & Calvert, S. L. (2021). Parent reports of children’s parasocial relationships with conver­
+   sational agents: Trusted voices in children’s lives. Human Behavior and Emerging Technologies, 3(4), 606–617.
+   https://doi.org/10.1002/hbe2.271
+Hu, B., Mao, Y., & Kim, K. J. (2023). How social anxiety leads to problematic use of conversational AI: The roles
+   of loneliness, rumination, and mind perception. Computers in Human Behavior, 145, 107760–107760. https://
+   doi.org/10.1016/j.chb.2023.107760
+� Baek, T. H., & Kim, M. (2023). Is ChatGPT scary good? How user motivations affect creepiness and trust in
+   generative artificial intelligence. Telematics and Informatics, 83, 102030. https://doi.org/10.1016/j.tele.2023.
+   102030
+�Janeczko, Z., & Foster, M. E. 4th (2022). A study on human interactions with robots based on their appearance
+   and behaviour. Proceedings of the [Paper presentation]. Conference on Conversational User Interfaces, pp. 1–6.
+   https://doi.org/10.1145/3543829.3544523
+�Kaptein, M., Markopoulos, P., De Ruyter, B., & Aarts, E. (2011). Two acts of social intelligence: The effects of
+   mimicry and social praise on the evaluation of an artificial agent. AI & Society, 26(3), 261–273. https://doi.org/
+   10.1007/s00146-010-0304-4
+�Keijsers, M., Bartneck, C., & Eyssel, F. (2021). What’s to bullying a bot?: Correlates between chatbot humanlike­
+   ness and abuse. Interaction Studies. Social Behaviour and Communication in Biological and Artificial Systems,
+   22(1), 55–80. https://doi.org/10.1075/is.20002.kei
+�Kim, J. H., Kim, J., Kim, C., & Kim, S. (. (2023). Do you trust ChatGPTs? Effects of the ethical and quality issues
+   of generative AI on travel decisions. Journal of Travel & Tourism Marketing, 40(9), 779–801. https://doi.org/10.
+   1080/10548408.2023.2293006
+�Lee, C. T., Pan, L.-Y., & Hsieh, S. H. (2022). Artificial intelligent chatbots as brand promoters: A two-stage struc­
+   tural equation modeling-artificial neural network approach. Internet Research, 32(4), 1329–1356. https://doi.org/
+   10.1108/INTR-01-2021-0030
+�Lee, J., Lee, D., & Lee, J. (2024). Influence of rapport and social presence with an AI psychotherapy chatbot on
+   users’ self-disclosure. International Journal of Human–Computer Interaction, 40(7), 1620–1631. https://doi.org/
+   10.1080/10447318.2022.2146227
+�Lee, S. K., Park, H., & Kim, S. Y. (2024). Gender and task effects of human – machine communication on trust­
+   ing a Korean intelligent virtual assistant. Behaviour & Information Technology, 43(16), 4172–4191. https://doi.
+   org/10.1080/0144929X.2024.2306136
+�Lee, Y.-C., Cui, Y., Jamieson, J., Fu, W., & Yamashita, N. (2023). Exploring effects of chatbot-based social contact
+   on reducing mental illness stigma. Proceedings of [Paper presentation].the 2023 CHI Conference on Human
+   Factors in Computing Systems, pp. 1–16. https://doi.org/10.1145/3544548.3581384
+�Leite, I., Pereira, A., Mascarenhas, S., Martinho, C., Prada, R., & Paiva, A. (2013). The influence of empathy in
+   human–robot relations. International Journal of Human-Computer Studies, 71(3), 250–260. https://doi.org/10.
+   1016/j.ijhcs.2012.09.005
+�Li, J., Wu, L., Qi, J., Zhang, Y., Wu, Z., & Hu, S. (2023). Determinants affecting consumer trust in communica­
+   tion with AI chatbots: The moderating effect of privacy concerns. Journal of Organizational and End User
+   Computing, 35(1), 1–24. https://doi.org/10.4018/JOEUC.328089
+�Li, M., Kamaraj, A. V., & Lee, J. D. (2024). Modeling trust dimensions and dynamics in human-agent conversa­
+   tion: A trajectory epistemic network analysis approach. International Journal of Human–Computer Interaction,
+   40(14), 3571–3582. https://doi.org/10.1080/10447318.2023.2201555
+�Liao, T., & Yan, B. (2023). Let’s chat if you are unhappy – The effect of emotions on interaction experience and
+   trust toward empathetic chatbots. In International Design Engineering Technical Conferences and Computers and
+   Information in Engineering Conference (Vol. 87318, pp. 1–11). https://doi.org/10.1115/DETC2023-115318
+�Liew, T. W., Tan, S.-M., Yoo, N. E., Gan, C. L., & Lee, Y. Y. (2023). Let’s talk about Sex!: AI and relational fac­
+   tors in the adoption of a chatbot conveying sexual and reproductive health information. Computers in Human
+   Behavior Reports, 11, 100323. https://doi.org/10.1016/j.chbr.2023.100323
+�Liu, B., & Sundar, S. S. (2018). Should machines express sympathy and empathy? Experiments with a health
+   advice chatbot. Cyberpsychology, Behavior and Social Networking, 21(10), 625–636. https://doi.org/10.1089/cyber.
+   2018.0110
+�Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). Frontiers: Machines vs. humans: The Impact of artificial intelligence
+   chatbot disclosure on customer purchases. Marketing Science, 38(6), 913–1084. https://doi.org/10.1287/mksc.
+   2019.1192
+�Mai, V., Bauer, A., Deggelmann, C., Neef, C., & Richert, A. (2022). AI-based coaching: Impact of a chatbot’s dis­
+   closure behavior on the working alliance and acceptance. In J. Y. C. Chen, G. Fragomeni, H. Degen, & S. Ntoa
+   (Eds.), HCI International 2022 – Late Breaking Papers: Interacting with eXtended Reality and Artificial
+   Intelligence, 13518, 391–406. Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-21707-4_28
+24      Y. J. OH ET AL.
+
+
+�Meng, J., & Dai, Y. (2021). Emotional support from AI Chatbots: Should a supportive partner self-disclose or
+  not? Journal of Computer-Mediated Communication, 26(4), 207–222. https://doi.org/10.1093/jcmc/zmab005
+�Min, F., Fang, Z., He, Y., & Xuan, J. (2021). Research on users’ trust of chatbots driven by AI: An empirical ana­
+  lysis based on system factors and user characteristics [Paper presentation].2021 IEEE International Conference on
+  Consumer Electronics and Computer Engineering (ICCECE), 55–58. https://doi.org/10.1109/ICCECE51280.
+  2021.9342098
+�Neef, C., Mai, V., & Richert, A. (2022). “I am scared of viruses, too”—Studying the impact of self-disclosure in
+  chatbots for health-related applications. In M. Kurosu (Ed.), Human-computer interaction. user experience and
+  behavior (vol. 13304, pp. 515–530). Springer International Publishing. https://doi.org/10.1007/978-3-031-05412-
+  9_35
+�Nguyen, V. T., Phong, L. T., & Chi, N. T. K. (2023). The impact of AI chatbots on customer trust: An empirical
+  investigation in the hotel industry. Consumer Behavior in Tourism and Hospitality, 18(3), 293–305. https://doi.
+  org/10.1108/CBTH-06-2022-0131
+�Park, G., Chung, J., & Lee, S. (2022). Effect of AI chatbot emotional disclosure on user satisfaction and reuse
+  intention for mental health counseling: A serial mediation model. Current Psychology (New Brunswick, N.J.),
+  42(32), 1–11. https://doi.org/10.1007/s12144-022-03932-z
+�Park, G., Lee, S., & Chung, J. (2023). Do anthropomorphic chatbots increase counseling satisfaction and reuse
+  intention? The moderated mediation of social rapport and social anxiety. Cyberpsychology, Behavior and Social
+  Networking, 26(5), 357–365. https://doi.org/10.1089/cyber.2022.0157
+�Peng, Z., & Wan, Y. (2024). Human vs. AI: Exploring students’ preferences between human and AI TA and the
+  effect of social anxiety and problem complexity. Education and Information Technologies, 29(1), 1217–1246.
+  https://doi.org/10.1007/s10639-023-12374-4
+�Pentina, I., Hancock, T., & Xie, T. (2023). Exploring relationship development with social chatbots: A mixed-
+  method study of replika. Computers in Human Behavior, 140, 107600. https://doi.org/10.1016/j.chb.2022.107600
+�Pfeuffer, N., Adam, M., Toutaoui, J., Hinz, O., Benlian, A. (2019). Mr. and Mrs. conversational agent – gender
+  stereotyping in judge-advisor systems and the role of egocentric bias. ICIS 2019 Proceedings, 2. https://aisel.ais­
+  net.org/icis2019/human_computer_interact/human_computer_interact/2
+�Potdevin, D., Clavel, C., & Sabouret, N. (2021). A virtual tourist counselor expressing intimacy behaviors: A new
+  perspective to create emotion in visitors and offer them a better user experience? International Journal of
+  Human-Computer Studies, 150, 102612. https://doi.org/10.1016/j.ijhcs.2021.102612
+�Prakash, A. V., Joshi, A., Nim, S., & Das, S. (2023). Determinants and consequences of trust in AI-based cus­
+  tomer service chatbots. The Service Industries Journal, 43(9-10), 642–675. https://doi.org/10.1080/02642069.2023.
+  2166493
+�Prakash, A. V., Das, S. (2020). Would you trust a bot for healthcare advice? an empirical investigation. PACIS
+  2020 Proceedings, 62. https://aisel.aisnet.org/pacis2020/62
+�Pujiarti, R. N., Lee, B., & Yi, M. Y. (2022). Enhancing user’s self-disclosure through chatbot’s co-activity and con­
+  versation atmosphere visualization. International Journal of Human–Computer Interaction, 38(18-20), 1891–
+  1908. https://doi.org/10.1080/10447318.2022.2116414
+�Qiao, Q., Wu, W., & Li, Y. (2022). Enhancing Consumer Usage of AI-Chatbots: The Role of Perceived Humanness,
+  Social Presence, and Social Interactivity [Paper presentation].2022 8th International Conference on Information
+  Management (ICIM), 97–103. https://doi.org/10.1109/ICIM56520.2022.00025
+�Razavi, S. Z., Schubert, L. K., Van Orden, K., Ali, M. R., Kane, B., & Hoque, E. (2022). Discourse behavior of
+  older adults interacting with a dialogue agent competent in multiple topics. ACM Transactions on Interactive
+  Intelligent Systems, 12(2), 1–21. https://doi.org/10.1145/3484510
+Reeves, B., & Nass, C. (1996). The media equation: How people treat computers, television, and new media like
+  real people. Cambridge, UK, 10(10), 19–36.
+�Reinkemeier, F., Spreer, P., & Toporowski, W. (2021). Voice assistants in voice commerce: The impact of social
+  cues on trust and satisfaction. In F. Ahlemann, R. Sch€  utte, & S. Stieglitz (Eds.), Innovation Through Information
+  Systems. WI 2021. Lecture Notes in Information Systems and Organization. (Vol. 47). Springer. https://doi.org/
+  10.1007/978-3-030-86797-3_9
+�Skjuve, M., Haugstveit, I. M., Følstad, A., & Brandtzaeg, P. B. (2019). Help! Is my chatbot falling into the
+  uncanny valley? An empirical study of user experience in human-chatbot interaction. Human Technology, 15(1),
+  30–54. https://doi.org/10.17011/ht/urn.201902201607
+�Strohmann, T., Siemon, D., Khosrawi-Rad, B., & Robra-Bissantz, S. (2023). Toward a design theory for virtual
+  companionship. Human–Computer Interaction, 38(3-4), 194–234. https://doi.org/10.1080/07370024.2022.2084620
+�Tejwani, R., Moreno, F., Jeong, S., Won Park, H., & Breazeal, C. (2020). Migratable AI: Effect of identity and
+  information migration on users’ perception of conversational AI agents [Paper presentation].2020 29th IEEE
+  International Conference on Robot and Human Interactive Communication (RO-MAN), pp. 877–884. https://
+  doi.org/10.1109/RO-MAN47096.2020.9223436
+�Tschopp, M., Gieselmann, M., & Sassenberg, K. (2023). Servant by default? How humans perceive their relation­
+  ship with conversational AI. Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 17(3), 9. https://
+  doi.org/10.5817/CP2023-3-9
+                                                       INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION         25
+
+
+�Xie, T., Pentina, I., & Hancock, T. (2023). Friend, mentor, lover: Does chatbot engagement lead to psychological
+  dependence? Journal of Service Management, 34(4), 806–828. https://doi.org/10.1108/JOSM-02-2022-0072
+�Xu, S., & Li, W. (2024). A tool or a social being? A dynamic longitudinal investigation of functional use and rela­
+  tional use of AI voice assistants. New Media & Society, 26(7), 3912–3930. https://doi.org/10.1177/
+  14614448221108112
+�Zhu, Q., Chau, A., Cohn, M., Liang, K.-H., Wang, H.-C., Zellou, G., & Yu, Z. (2022). Effects of emotional expres­
+  siveness on voice chatbot interactions. Proceedings of the 4th [Paper presentation]. Conference on Conversational
+  User Interfaces, 1–11. https://doi.org/10.1145/3543829.3543840
+�Zhu, Y., Zhang, R., Zou, Y., & Jin, D. (2023). Investigating customers’ responses to artificial intelligence chatbots
+  in online travel agencies: The moderating role of product familiarity. Journal of Hospitality and Tourism
+  Technology, 14(2), 208–224. https://doi.org/10.1108/JHTT-02-2022-0041
+
+
+About the authors
+Yoo Jung (Erika) Oh is an Assistant Professor in the Department of Communication at Michigan State
+University. Her research investigates the impact of persuasive AI on human perceptions and behaviors. Dr. Oh’s
+research focuses on human perceptions, communication patterns, and the resulting persuasion and relational out­
+comes of human-AI interaction.
+Junwen M. Hu is an incoming Assistant Professor in the Department of Communication at the University of
+California, Davis. He studies how people select and mobilize personal relationships for symbolic and tangible
+resources, focusing on online mate selection and social support.
+Rui Zhu is a PhD candidate at the Department of Communication, Michigan State University. Her research
+focuses on communication technologies and how they shape human relationships.
+Jong In Lim is a PhD candidate at the Department of Communication, Michigan State University. His research
+interest includes supportive communication and its influence on relational and psychological health.
+Xinyu Zhang is a PhD student at the Department of Communication, Michigan State University. Her research
+focuses on the impact of communication technologies on interpersonal communication and self-identity.
+
