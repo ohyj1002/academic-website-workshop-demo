@@ -21,22 +21,22 @@ export default function About() {
       <section className="mx-auto max-w-6xl px-5 sm:px-8 pt-12 sm:pt-20 pb-16 grid md:grid-cols-[1.25fr_1fr] gap-12 md:gap-16 items-start">
         <div className="rise order-2 md:order-1">
           <p className="eyebrow">Human–AI Communication &middot; Health &middot; Persuasion</p>
-          <h1 className="font-display text-[2.9rem] sm:text-[4.4rem] leading-[1.02] mt-5 text-foreground" data-testid="text-name">
+          <h1 className="font-display text-[3.1rem] sm:text-[4.9rem] leading-[1.02] mt-5 text-foreground" data-testid="text-name">
             Yoo Jung <span className="italic text-primary">(Erika)</span> Oh
           </h1>
-          <p className="mt-5 text-lg text-foreground/80">
+          <p className="mt-5 text-[1.15rem] text-foreground/80">
             Assistant Professor, Department of Communication
             <br />
             Michigan State University
           </p>
-          <p className="mt-10 font-display text-[1.6rem] sm:text-[1.9rem] leading-snug text-foreground max-w-xl border-l-2 border-primary pl-6">
+          <p className="mt-10 font-display text-[1.8rem] sm:text-[2.2rem] leading-snug text-foreground max-w-xl border-l-2 border-primary pl-6">
             How do people communicate with, relate to, and come to be influenced by artificial intelligence?
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
-            <Link href="/research" data-testid="button-research" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-3 text-[0.95rem] font-medium hover:bg-primary/90 transition-colors">
+            <Link href="/research" data-testid="button-research" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-3 text-base font-medium hover:bg-primary/90 transition-colors">
               Explore the research <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
-            <a href={SITE.cv} download="Yoo-Jung-Oh-CV.pdf" data-testid="button-download-cv" className="inline-flex items-center gap-2 border border-primary text-primary px-5 py-3 text-[0.95rem] font-medium hover:bg-accent transition-colors">
+            <a href={SITE.cv} download="Yoo-Jung-Oh-CV.pdf" data-testid="button-download-cv" className="inline-flex items-center gap-2 border border-primary text-primary px-5 py-3 text-base font-medium hover:bg-accent transition-colors">
               <Download className="h-4 w-4" aria-hidden /> Download CV
             </a>
           </div>
@@ -55,7 +55,7 @@ export default function About() {
       <section className="rule">
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16 grid md:grid-cols-[220px_1fr] gap-8">
           <h2 className="eyebrow pt-2">Biography</h2>
-          <div className="max-w-2xl space-y-5 text-[1.08rem]">
+          <div className="max-w-2xl space-y-5 text-[1.18rem] leading-relaxed">
             <p>
               Yoo Jung (Erika) Oh is an Assistant Professor in the Department of Communication at Michigan State University. Her research spans human-AI communication and human-computer interaction, with particular attention to AI chatbots, strategic communication, health communication, public health, and health technologies.
             </p>
@@ -75,8 +75,8 @@ export default function About() {
                 <li key={a.t} className="py-5 border-b border-primary/15 flex gap-4" data-testid={`text-area-${i}`}>
                   <span className="font-mono text-xs text-primary/70 pt-1.5">{String(i + 1).padStart(2, "0")}</span>
                   <div>
-                    <h3 className="font-display text-xl text-primary">{a.t}</h3>
-                    <p className="text-[0.95rem] text-foreground/75 mt-1">{a.d}</p>
+                    <h3 className="font-display text-[1.4rem] text-primary">{a.t}</h3>
+                    <p className="text-[1.02rem] text-foreground/75 mt-1 leading-relaxed">{a.d}</p>
                   </div>
                 </li>
               ))}
@@ -89,10 +89,10 @@ export default function About() {
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16 grid md:grid-cols-[220px_1fr] gap-8">
           <h2 className="eyebrow pt-2">The research program</h2>
           <div className="max-w-2xl">
-            <p className="text-[1.08rem]">
+            <p className="text-[1.16rem] leading-relaxed">
               Chatbots are often framed as tools for delivering information. Her work treats them also as potential relational partners, asking how trust, support, and conversation shape whether AI can encourage healthier choices. Studies range from relational chatbots for physical activity and caregiving chatbots for older adults to AI-generated health messages and computational analyses of public health discourse.
             </p>
-            <Link href="/research" className="mt-6 inline-flex items-center gap-2 text-primary font-medium link-u" data-testid="link-featured-study">
+            <Link href="/research" className="mt-6 inline-flex items-center gap-2 text-primary font-medium link-u text-base" data-testid="link-featured-study">
               Read the featured study on chatbots as relational agents <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
           </div>
@@ -102,7 +102,7 @@ export default function About() {
       <section className="rule">
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16 grid md:grid-cols-[220px_1fr] gap-8">
           <h2 className="eyebrow pt-2">Profiles</h2>
-          <ul className="flex flex-col sm:flex-row gap-3">
+          <ul className="flex flex-col sm:flex-row gap-3 text-base">
             <li>
               <a href={SITE.scholar} target="_blank" rel="noopener noreferrer" data-testid="link-scholar" className="flex items-center gap-3 border border-border bg-card px-5 py-4 hover:border-primary transition-colors">
                 <GraduationCap className="h-5 w-5 text-primary" aria-hidden />
