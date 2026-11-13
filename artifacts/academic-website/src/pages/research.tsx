@@ -27,7 +27,7 @@ export default function Research() {
     <>
       <PageHeader eyebrow="Research" title="How people talk to, relate to, and are moved by AI">
         <p>
-          My research examines how people communicate with, relate to, and are influenced by artificial intelligence, drawing on interpersonal communication, persuasion, and health communication, and on computational social science methods.
+          My research examines how people communicate with, relate to, and are influenced by artificial intelligence, drawing on interpersonal communication, persuasion, and health communication, and on computational social science methods :)
         </p>
       </PageHeader>
 
